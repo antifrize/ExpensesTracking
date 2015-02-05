@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ProjectModuleManager">
+    <modules>
+      <module fileurl="file://$PROJECT_DIR$/ExpensesTracking.iml" filepath="$PROJECT_DIR$/ExpensesTracking.iml" />
+      <module fileurl="file://$PROJECT_DIR$/et-common/et-common.iml" filepath="$PROJECT_DIR$/et-common/et-common.iml" />
+      <module fileurl="file://$PROJECT_DIR$/et-ear/et-ear.iml" filepath="$PROJECT_DIR$/et-ear/et-ear.iml" />
+      <module fileurl="file://$PROJECT_DIR$/et-ejb/et-ejb.iml" filepath="$PROJECT_DIR$/et-ejb/et-ejb.iml" />
+      <module fileurl="file://$PROJECT_DIR$/et-web/et-web.iml" filepath="$PROJECT_DIR$/et-web/et-web.iml" />
+    </modules>
+  </component>
+</project>
+
