@@ -30,7 +30,8 @@ public class ExpensesResource {
         return expensesService.getById(id);
     }
 
-    @GET
+    @POST
+    @Path("/all")
     @Produces(MediaType.APPLICATION_JSON)
     public List<Expense> getAll(ExpensesFilter filter){
         return expensesService.getAll(filter);

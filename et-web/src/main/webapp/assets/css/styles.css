@@ -1,0 +1,16 @@
+.expense-unit .expense-btn-group{
+    display: none;
+}
+.expense-unit:hover .expense-btn-group{
+    display: block;
+}
+
+
+.site-content{
+    align-content: center;
+    max-width: 600px;
+}
+.expense-unit{
+    padding: 10px 0 10px 0;
+    background-color: azure;
+}

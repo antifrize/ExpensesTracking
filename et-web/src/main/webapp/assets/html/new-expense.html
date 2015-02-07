@@ -1,0 +1,52 @@
+<div id="edit-expense-modal" class="modal fade">
+    <div class="modal-dialog">
+        <div class="modal-content">
+            <div class="modal-header">
+                <h3>{{newExpense ? "New Expense" : "Edit Expense"}}</h3>
+            </div>
+            <div class="modal-body">
+                <form class="form">
+                    <div class="form-group">
+                        <label for="expense-amount">
+                            Amount:
+                        </label>
+                        <input id="expense-amount" class="form-control" placeholder="Enter amount"
+                               ng-model="currentExpense.amount">
+                    </div>
+                    <div class="form-group">
+                        <label for="expense-description">
+                            Description:
+                        </label>
+                        <input id="expense-description" class="form-control" placeholder="Enter amount"
+                               ng-model="currentExpense.description">
+                    </div>
+                    <div class="form-group">
+                        <label for="expense-comment">
+                            Comment:
+                        </label>
+                        <input id="expense-comment" class="form-control" placeholder="Enter comment"
+                               ng-model="currentExpense.comment">
+                    </div>
+                    <div class="form-group">
+                        <label for="expense-date">
+                            Date:
+                        </label>
+                        <input id="expense-date" class="form-control" placeholder="YYYY-MM-DD"
+                               ng-model="currentExpense.date">
+                    </div>
+                    <div class="form-group">
+                        <label for="expense-time">
+                            Time:
+                        </label>
+                        <input id="expense-time" class="form-control" placeholder="HH:MM"
+                               ng-model="currentExpense.time">
+                    </div>
+                </form>
+            </div>
+            <div class="modal-footer">
+                <button type="button" class="btn" ng-click="save()">Save</button>
+                <button type="button" class="btn" data-dismiss="modal">Cancel</button>
+            </div>
+        </div>
+    </div>
+</div>

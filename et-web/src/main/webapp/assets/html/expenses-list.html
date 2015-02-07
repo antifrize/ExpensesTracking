@@ -1,3 +1,32 @@
-<div>
-    ExpensesList
+<div class="center-block site-content">
+    <div class="row">
+        <div class="col-xs-4">
+            <span class="h1">ExpensesList</span></div>
+        <div class="col-xs-8">
+            <button type="button" class="btn pull-right"  ng-click="addEditExpense()"><span class="glyphicon glyphicon-plus"></span></button>
+        </div>
+    </div>
+    <hr>
+    <div id="expenses_table">
+        <table class="table">
+            <thead>
+
+            </thead>
+            <tbody>
+            <tr ng-repeat="expense in expenses">
+                <td>
+                    <div expense-unit
+                         delete-lnr="deleteExpense(id)"
+                         edit-lnr="addEditExpense(id)"
+                         expense-model="expense"></div>
+                </td>
+            </tr>
+
+            </tbody>
+
+        </table>
+    </div>
+
 </div>
+
+<ng-include src="'assets/html/new-expense.html'"></ng-include>

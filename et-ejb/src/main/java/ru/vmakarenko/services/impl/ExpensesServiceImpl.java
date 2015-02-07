@@ -13,6 +13,7 @@ import javax.inject.Inject;
 import javax.inject.Named;
 import javax.persistence.EntityManager;
 import javax.persistence.PersistenceContext;
+import javax.persistence.criteria.CriteriaQuery;
 import java.security.InvalidParameterException;
 import java.util.List;
 
@@ -37,8 +38,13 @@ public class ExpensesServiceImpl implements ExpensesService {
     @Override
     public List<Expense> getAll(ExpensesFilter filter) {
         // TODO do some filtration
-        filter.setUser(userService.getByPrincipal("user"));
-        return em.createQuery(em.getCriteriaBuilder().createQuery(Expense.class)).getResultList();
+        if(filter == null){
+            filter = new ExpensesFilter();
+        }
+//        filter.setUser(userService.getByPrincipal("user"));
+        CriteriaQuery<Expense> query  = em.getCriteriaBuilder().createQuery(Expense.class);
+        query.from(Expense.class);
+        return em.createQuery(query).getResultList();
     }
 
     @Override

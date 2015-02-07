@@ -1,53 +1,33 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="b9823c7e-9893-464d-a174-46ac7c18e51b" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_sun_jersey_jersey_json_1_17_1.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_sun_xml_bind_jaxb_impl_2_2_3_1.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__javax_activation_activation_1_1.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__javax_javaee_api_6_0.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__javax_xml_bind_jaxb_api_2_2_2.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__javax_xml_stream_stax_api_1_0_2.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_codehaus_jackson_jackson_xc_1_9_13.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_codehaus_jettison_jettison_1_1.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_hibernate_hibernate_entitymanager_4_3_8_Final.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/et-web/src/main/webapp/assets/js/lib/angular/angular.min.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/et-web/src/main/webapp/assets/js/app.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/et-web/src/main/webapp/assets/js/controllers/auth-controller.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/et-web/src/main/webapp/assets/html/auth-form.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/et-web/src/main/webapp/WEB-INF/beans.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/et-web/src/main/webapp/assets/js/controllers/expenses-list-controller.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/et-web/src/main/webapp/assets/html/expenses-list.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/et-web/src/main/webapp/assets/js/lib/jquery/jquery-1.11.2.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/et-web/src/main/webapp/assets/js/lib/jquery-ui/jquery-ui.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/et-ejb/src/main/resources/META-INF/persistence.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/et-web/src/main/webapp/assets/js/controllers/reg-controller.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/et-web/src/main/webapp/assets/html/reg-form.html" />
-      <change type="DELETED" beforePath="C:\Users\VMakarenko\Documents\Work\Interview\ExpensesTracking\.idea\libraries\Maven__javaee_javaee_api_5.xml" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\VMakarenko\Documents\Work\Interview\ExpensesTracking\.idea\libraries\Maven__javax_inject_javax_inject_1.xml" afterPath="" />
-      <change type="MOVED" beforePath="C:\Users\VMakarenko\Documents\Work\Interview\ExpensesTracking\et-common\src\main\java\ru\vmakarenko\entities\DefaultEntity.java" afterPath="$PROJECT_DIR$/et-ejb/src/main/java/ru/vmakarenko/entities/DefaultEntity.java" />
-      <change type="MOVED" beforePath="C:\Users\VMakarenko\Documents\Work\Interview\ExpensesTracking\et-common\src\main\java\ru\vmakarenko\entities\Expense.java" afterPath="$PROJECT_DIR$/et-ejb/src/main/java/ru/vmakarenko/entities/Expense.java" />
-      <change type="MOVED" beforePath="C:\Users\VMakarenko\Documents\Work\Interview\ExpensesTracking\et-common\src\main\java\ru\vmakarenko\entities\User.java" afterPath="$PROJECT_DIR$/et-ejb/src/main/java/ru/vmakarenko/entities/User.java" />
-      <change type="MOVED" beforePath="C:\Users\VMakarenko\Documents\Work\Interview\ExpensesTracking\et-common\src\main\java\ru\vmakarenko\filter\ExpensesFilter.java" afterPath="$PROJECT_DIR$/et-ejb/src/main/java/ru/vmakarenko/filter/ExpensesFilter.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/et-web/src/main/java/ru/vmakarenko/rest/AuthResource.java" afterPath="$PROJECT_DIR$/et-web/src/main/java/ru/vmakarenko/rest/AuthResource.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/et-ejb/src/main/java/ru/vmakarenko/services/impl/AuthServiceImpl.java" afterPath="$PROJECT_DIR$/et-ejb/src/main/java/ru/vmakarenko/services/impl/AuthServiceImpl.java" />
+    <list default="true" id="b9823c7e-9893-464d-a174-46ac7c18e51b" name="Default" comment="added some ui libs + basic ui structure&#10;">
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/et-web/src/main/webapp/assets/fonts/glyphicons-halflings-regular.eot" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/et-web/src/main/webapp/assets/fonts/glyphicons-halflings-regular.ttf" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/et-web/src/main/webapp/assets/fonts/glyphicons-halflings-regular.woff2" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/et-web/src/main/webapp/assets/fonts/glyphicons-halflings-regular.woff" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/et-web/src/main/webapp/assets/js/lib/angular/angular-route.min.js.map" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/et-web/src/main/webapp/assets/js/lib/angular/angular-route.min.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/et-web/src/main/webapp/assets/js/lib/angular/angular.min.js.map" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/et-web/src/main/webapp/assets/css/lib/bootstrap/bootstrap-theme.css.map" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/et-web/src/main/webapp/assets/css/lib/bootstrap/bootstrap-theme.css" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/et-web/src/main/webapp/assets/css/lib/bootstrap/bootstrap.css.map" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/et-web/src/main/webapp/assets/css/lib/bootstrap/bootstrap.css" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/et-web/src/main/webapp/assets/js/lib/bootstrap/bootstrap.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/et-web/src/main/webapp/assets/html/directives/expense-unit.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/et-web/src/main/webapp/assets/js/directive/expense-unit.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/et-web/src/main/webapp/assets/js/services/expenses-service.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/et-web/src/main/webapp/assets/fonts/glyphicons-halflings-regular.svg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/et-web/src/main/webapp/assets/html/new-expense.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/et-web/src/main/webapp/assets/css/styles.css" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/et-web/src/main/webapp/assets/js/lib/angular-ui/ui-bootstrap-tpls-0.12.0.js" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/et-web/src/main/java/ru/vmakarenko/rest/ExpensesResource.java" afterPath="$PROJECT_DIR$/et-web/src/main/java/ru/vmakarenko/rest/ExpensesResource.java" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/et-ejb/src/main/java/ru/vmakarenko/services/impl/ExpensesServiceImpl.java" afterPath="$PROJECT_DIR$/et-ejb/src/main/java/ru/vmakarenko/services/impl/ExpensesServiceImpl.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/ExpensesTracking.iml" afterPath="$PROJECT_DIR$/ExpensesTracking.iml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/et-ejb/src/main/java/ru/vmakarenko/services/impl/UserServiceImpl.java" afterPath="$PROJECT_DIR$/et-ejb/src/main/java/ru/vmakarenko/services/impl/UserServiceImpl.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/et-ear/META-INF/application.xml" afterPath="$PROJECT_DIR$/et-ear/META-INF/application.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/et-common/et-common.iml" afterPath="$PROJECT_DIR$/et-common/et-common.iml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/et-ear/et-ear.iml" afterPath="$PROJECT_DIR$/et-ear/et-ear.iml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/et-ejb/et-ejb.iml" afterPath="$PROJECT_DIR$/et-ejb/et-ejb.iml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/et-web/et-web.iml" afterPath="$PROJECT_DIR$/et-web/et-web.iml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/artifacts/et_ear_ear_exploded.xml" afterPath="$PROJECT_DIR$/.idea/artifacts/et_ear_ear_exploded.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/artifacts/et_web_war_exploded.xml" afterPath="$PROJECT_DIR$/.idea/artifacts/et_web_war_exploded.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/et-web/src/main/webapp/assets/js/app.js" afterPath="$PROJECT_DIR$/et-web/src/main/webapp/assets/js/app.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/et-web/src/main/webapp/assets/html/auth-form.html" afterPath="$PROJECT_DIR$/et-web/src/main/webapp/assets/html/auth-form.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/et-web/src/main/webapp/assets/js/controllers/expenses-list-controller.js" afterPath="$PROJECT_DIR$/et-web/src/main/webapp/assets/js/controllers/expenses-list-controller.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/et-web/src/main/webapp/assets/html/expenses-list.html" afterPath="$PROJECT_DIR$/et-web/src/main/webapp/assets/html/expenses-list.html" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/et-web/src/main/webapp/index.jsp" afterPath="$PROJECT_DIR$/et-web/src/main/webapp/index.jsp" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/pom.xml" afterPath="$PROJECT_DIR$/pom.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/et-ejb/pom.xml" afterPath="$PROJECT_DIR$/et-ejb/pom.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/et-web/pom.xml" afterPath="$PROJECT_DIR$/et-web/pom.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/vcs.xml" afterPath="$PROJECT_DIR$/.idea/vcs.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/et-web/src/main/webapp/WEB-INF/web.xml" afterPath="$PROJECT_DIR$/et-web/src/main/webapp/WEB-INF/web.xml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
     </list>
     <ignored path="ExpensesTracking.iws" />
@@ -113,59 +93,10 @@
   </component>
   <component name="FileEditorManager">
     <leaf>
-      <file leaf-file-name="User.java" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/et-ejb/src/main/java/ru/vmakarenko/entities/User.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="13" column="20" selection-start="268" selection-end="268" vertical-scroll-proportion="0.0" vertical-offset="221" max-vertical-offset="884">
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="Expense.java" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/et-ejb/src/main/java/ru/vmakarenko/entities/Expense.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="14" column="22" selection-start="314" selection-end="335" vertical-scroll-proportion="0.0" vertical-offset="238" max-vertical-offset="1326">
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="index.jsp" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/et-web/src/main/webapp/index.jsp">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="10" column="44" selection-start="362" selection-end="362" vertical-scroll-proportion="-6.5384617" vertical-offset="0" max-vertical-offset="425">
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="app.js" pinned="false" current="true" current-in-tab="true">
+      <file leaf-file-name="app.js" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/et-web/src/main/webapp/assets/js/app.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="19" column="41" selection-start="659" selection-end="659" vertical-scroll-proportion="0.4624" vertical-offset="0" max-vertical-offset="625">
-              <folding>
-                <element signature="e#0#43#0" expanded="false" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="expenses-list-controller.js" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/et-web/src/main/webapp/assets/js/controllers/expenses-list-controller.js">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="5" column="38" selection-start="106" selection-end="106" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="187">
-              <folding>
-                <element signature="e#0#43#0" expanded="false" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="reg-controller.js" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/et-web/src/main/webapp/assets/js/controllers/reg-controller.js">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="5" column="38" selection-start="106" selection-end="106" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="187">
+            <state line="18" column="40" selection-start="595" selection-end="595" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="476">
               <folding>
                 <element signature="e#0#43#0" expanded="false" />
               </folding>
@@ -176,37 +107,86 @@
       <file leaf-file-name="expenses-list.html" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/et-web/src/main/webapp/assets/html/expenses-list.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="1" column="16" selection-start="22" selection-end="22" vertical-scroll-proportion="-0.65384614" vertical-offset="0" max-vertical-offset="136">
+            <state line="7" column="10" selection-start="346" selection-end="346" vertical-scroll-proportion="-4.576923" vertical-offset="0" max-vertical-offset="629">
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="auth-form.html" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/et-web/src/main/webapp/assets/html/auth-form.html">
+      <file leaf-file-name="expenses-list-controller.js" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/et-web/src/main/webapp/assets/js/controllers/expenses-list-controller.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="2" column="6" selection-start="35" selection-end="35" vertical-scroll-proportion="-1.3076923" vertical-offset="0" max-vertical-offset="136">
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="reg-form.html" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/et-web/src/main/webapp/assets/html/reg-form.html">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="1" column="21" selection-start="27" selection-end="27" vertical-scroll-proportion="-0.65384614" vertical-offset="0" max-vertical-offset="136">
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="auth-controller.js" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/et-web/src/main/webapp/assets/js/controllers/auth-controller.js">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="6" column="0" selection-start="0" selection-end="136" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="187">
+            <state line="20" column="13" selection-start="445" selection-end="445" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="748">
               <folding>
                 <element signature="e#0#43#0" expanded="false" />
               </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="expenses-service.js" pinned="false" current="true" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/et-web/src/main/webapp/assets/js/services/expenses-service.js">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="24" column="0" selection-start="551" selection-end="551" vertical-scroll-proportion="0.5984" vertical-offset="0" max-vertical-offset="625">
+              <folding>
+                <element signature="e#0#43#0" expanded="false" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="index.jsp" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/et-web/src/main/webapp/index.jsp">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="26" column="7" selection-start="1069" selection-end="1069" vertical-scroll-proportion="-15.538462" vertical-offset="38" max-vertical-offset="697">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="new-expense.html" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/et-web/src/main/webapp/assets/html/new-expense.html">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="4" column="72" selection-start="227" selection-end="227" vertical-scroll-proportion="-2.6153846" vertical-offset="0" max-vertical-offset="969">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="expense-unit.html" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/et-web/src/main/webapp/assets/html/directives/expense-unit.html">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="15" column="68" selection-start="443" selection-end="443" vertical-scroll-proportion="-9.807693" vertical-offset="0" max-vertical-offset="476">
+              <folding>
+                <element signature="n#style#0;n#div#0;n#!!top" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="expense-unit.js" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/et-web/src/main/webapp/assets/js/directive/expense-unit.js">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="16" column="7" selection-start="401" selection-end="401" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="561">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="styles.css" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/et-web/src/main/webapp/assets/css/styles.css">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="14" column="28" selection-start="256" selection-end="256" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="374">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="bootstrap.css" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/et-web/src/main/webapp/assets/css/lib/bootstrap/bootstrap.css">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="1307" column="0" selection-start="21506" selection-end="21506" vertical-scroll-proportion="-7.8" vertical-offset="22024" max-vertical-offset="111724">
+              <folding />
             </state>
           </provider>
         </entry>
@@ -224,12 +204,6 @@
   <component name="IdeDocumentHistory">
     <option name="changedFiles">
       <list>
-        <option value="$PROJECT_DIR$/src/ru/vmakarenko/entities/Expense.java" />
-        <option value="$PROJECT_DIR$/src/ru/vmakarenko/entities/User.java" />
-        <option value="$PROJECT_DIR$/src/main/java/ru/vmakarenko/rest/AuthResource.java" />
-        <option value="$PROJECT_DIR$/src/main/java/ru/vmakarenko/services/AuthService.java" />
-        <option value="$PROJECT_DIR$/src/main/java/ru/vmakarenko/services/impl/AuthServiceImpl.java" />
-        <option value="$PROJECT_DIR$/src/main/java/ru/vmakarenko/services/ExpensesService.java" />
         <option value="$PROJECT_DIR$/src/main/java/ru/vmakarenko/entities/Expense.java" />
         <option value="$PROJECT_DIR$/src/main/java/ru/vmakarenko/entities/User.java" />
         <option value="$PROJECT_DIR$/src/main/java/ru/vmakarenko/entities/DefaultEntity.java" />
@@ -263,16 +237,24 @@
         <option value="$PROJECT_DIR$/et-ejb/pom.xml" />
         <option value="$PROJECT_DIR$/et-ejb/src/main/java/ru/vmakarenko/entities/Expense.java" />
         <option value="$PROJECT_DIR$/et-ejb/src/main/java/ru/vmakarenko/entities/User.java" />
-        <option value="$PROJECT_DIR$/et-ejb/src/main/java/ru/vmakarenko/services/impl/ExpensesServiceImpl.java" />
-        <option value="$PROJECT_DIR$/et-web/src/main/java/ru/vmakarenko/rest/ExpensesResource.java" />
-        <option value="$PROJECT_DIR$/et-web/src/main/webapp/index.jsp" />
-        <option value="$PROJECT_DIR$/et-web/src/main/webapp/assets/js/app.js" />
         <option value="$PROJECT_DIR$/et-web/src/main/webapp/assets/js/controllers/auth-controller.js" />
-        <option value="$PROJECT_DIR$/et-web/src/main/webapp/assets/js/controllers/expenses-list-controller.js" />
         <option value="$PROJECT_DIR$/et-web/src/main/webapp/assets/js/controllers/reg-controller.js" />
-        <option value="$PROJECT_DIR$/et-web/src/main/webapp/assets/html/expenses-list.html" />
         <option value="$PROJECT_DIR$/et-web/src/main/webapp/assets/html/reg-form.html" />
+        <option value="$PROJECT_DIR$/et-web/src/main/webapp/assets/js/app.js" />
         <option value="$PROJECT_DIR$/et-web/src/main/webapp/assets/html/auth-form.html" />
+        <option value="$PROJECT_DIR$/et-web/src/main/webapp/assets/js/services/ExpensesService.js" />
+        <option value="$PROJECT_DIR$/et-web/src/main/java/ru/vmakarenko/rest/ExpensesResource.java" />
+        <option value="$PROJECT_DIR$/et-web/src/main/webapp/assets/js/services/expenses-service.js" />
+        <option value="$PROJECT_DIR$/et-ejb/src/main/java/ru/vmakarenko/services/impl/ExpensesServiceImpl.java" />
+        <option value="$PROJECT_DIR$/et-web/src/main/webapp/assets/html/directive/expense-unit.html" />
+        <option value="$PROJECT_DIR$/et-web/src/main/webapp/assets/css/lib/bootstrap/bootstrap.css" />
+        <option value="$PROJECT_DIR$/et-web/src/main/webapp/assets/css/styles.css" />
+        <option value="$PROJECT_DIR$/et-web/src/main/webapp/index.jsp" />
+        <option value="$PROJECT_DIR$/et-web/src/main/webapp/assets/html/new-expense.html" />
+        <option value="$PROJECT_DIR$/et-web/src/main/webapp/assets/js/controllers/expenses-list-controller.js" />
+        <option value="$PROJECT_DIR$/et-web/src/main/webapp/assets/html/directives/expense-unit.html" />
+        <option value="$PROJECT_DIR$/et-web/src/main/webapp/assets/html/expenses-list.html" />
+        <option value="$PROJECT_DIR$/et-web/src/main/webapp/assets/js/directive/expense-unit.js" />
       </list>
     </option>
   </component>
@@ -425,36 +407,6 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
-              <option name="myItemId" value="WEB-INF" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="ExpensesTracking" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="ExpensesTracking" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="et-web" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="src" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="main" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="webapp" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
               <option name="myItemId" value="assets" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
@@ -490,6 +442,154 @@
             </PATH_ELEMENT>
             <PATH_ELEMENT>
               <option name="myItemId" value="html" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="ExpensesTracking" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="ExpensesTracking" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="et-web" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="src" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="main" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="webapp" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="assets" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="html" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="directives" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="ExpensesTracking" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="ExpensesTracking" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="et-web" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="src" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="main" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="webapp" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="assets" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="fonts" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="ExpensesTracking" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="ExpensesTracking" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="et-web" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="src" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="main" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="webapp" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="assets" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="css" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="ExpensesTracking" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="ExpensesTracking" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="et-web" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="src" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="main" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="webapp" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="assets" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="css" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="lib" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="bootstrap" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
@@ -841,6 +941,7 @@
     <property name="FullScreen" value="false" />
     <property name="LayoutCode.rearrangeEntriesJSP" value="false" />
     <property name="DefaultHtmlFileTemplate" value="Html5" />
+    <property name="LayoutCode.rearrangeEntriesHTML" value="false" />
   </component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
@@ -854,11 +955,11 @@
       <recent name="" />
     </key>
     <key name="MoveFile.RECENT_KEYS">
-      <recent name="C:\Users\VMakarenko\Documents\Work\Interview\ExpensesTracking\et-web\src\main\webapp\assets\js\lib\jquery-ui" />
-      <recent name="C:\Users\VMakarenko\Documents\Work\Interview\ExpensesTracking\et-web\src\main\webapp\assets\js\lib\jquery" />
-      <recent name="C:\Users\VMakarenko\Documents\Work\Interview\ExpensesTracking\et-web\src\main\webapp\assets\js\lib\angular" />
-      <recent name="C:\Users\VMakarenko\Documents\Work\Interview\ExpensesTracking\et-web\src\main\webapp\assets\js\lib" />
-      <recent name="C:\Users\VMakarenko\Documents\Work\Interview\ExpensesTracking\et-web\src\main\webapp" />
+      <recent name="C:\Users\VMakarenko\Documents\Work\Interview\ExpensesTracking\et-web\src\main\webapp\assets\js\lib\angular-ui" />
+      <recent name="C:\Users\VMakarenko\Documents\Work\Interview\ExpensesTracking\et-web\src\main\webapp\assets\css\lib" />
+      <recent name="C:\Users\VMakarenko\Documents\Work\Interview\ExpensesTracking\et-web\src\main\webapp\assets\css\lib\bootstrap" />
+      <recent name="C:\Users\VMakarenko\Documents\Work\Interview\ExpensesTracking\et-web\src\main\webapp\assets\js\lib\bootstrap" />
+      <recent name="C:\Users\VMakarenko\Documents\Work\Interview\ExpensesTracking\et-web\src\main\webapp\assets\fonts" />
     </key>
   </component>
   <component name="RunManager" selected="JBoss Server.JBoss">
@@ -1159,7 +1260,7 @@
     <configuration default="false" name="JBoss" type="JBossConfiguration" factoryName="Local" APPLICATION_SERVER_NAME="JBoss 7.4.0.Final-redhat-19" ALTERNATIVE_JRE_ENABLED="false" ALTERNATIVE_JRE_PATH="">
       <option name="OPEN_IN_BROWSER" value="false" />
       <option name="OPEN_IN_BROWSER_URL" value="http://localhost:8080/expenses/api/expenses" />
-      <option name="COMMON_VM_ARGUMENTS" value="-Dcom.sun.jersey.server.impl.cdi.lookupExtensionInBeanManager=true" />
+      <option name="COMMON_VM_ARGUMENTS" value="-Dcom.sun.jersey.server.impl.cdi.lookupExtensionInBeanManager=true -XX:PermSize=1024m -XX:MaxPermSize=2048m" />
       <option name="UPDATE_ON_FRAME_DEACTIVATION" value="true" />
       <option name="UPDATING_POLICY" value="update-resources" />
       <deployment>
@@ -1539,54 +1640,59 @@
       <workItem from="1422915569916" duration="30009000" />
       <workItem from="1423247475667" duration="3657000" />
       <workItem from="1423252059029" duration="7417000" />
-      <workItem from="1423260912064" duration="3321000" />
+      <workItem from="1423260912064" duration="20525000" />
     </task>
+    <task id="LOCAL-00001" summary="added some ui libs + basic ui structure">
+      <created>1423302190286</created>
+      <updated>1423302190286</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="44404000" />
+    <option name="totallyTimeSpent" value="61608000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="1358" y="-8" width="1936" height="1216" extended-state="6" />
-    <editor active="true" />
+    <editor active="false" />
     <layout>
-      <window_info id="Palette&#9;" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
-      <window_info id="Changes" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.3299539" sideWeight="0.5" order="10" side_tool="false" content_ui="tabs" />
-      <window_info id="Statistic" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
-      <window_info id="JavaEE:App" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="0" side_tool="true" content_ui="tabs" />
-      <window_info id="Persistence" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
-      <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
-      <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
-      <window_info id="Java Enterprise" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="JRebel Executor" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
-      <window_info id="IDEtalk Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
-      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="5" side_tool="true" content_ui="tabs" />
-      <window_info id="IDEtalk" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
-      <window_info id="JSF" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
-      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
-      <window_info id="CDI" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="16" side_tool="false" content_ui="tabs" />
-      <window_info id="Application Servers" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.21884984" sideWeight="0.5" order="5" side_tool="false" content_ui="combo" />
-      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32903227" sideWeight="0.5" order="12" side_tool="false" content_ui="tabs" />
-      <window_info id="Designer" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Palette" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="Bean Validation" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
-      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.3299539" sideWeight="0.5" order="11" side_tool="false" content_ui="tabs" />
-      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.4" sideWeight="0.5" order="13" side_tool="false" content_ui="tabs" />
-      <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
-      <window_info id="JRebel" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="true" content_ui="tabs" />
+      <window_info id="Palette&#9;" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Changes" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.3299539" sideWeight="0.5" order="14" side_tool="false" content_ui="tabs" />
+      <window_info id="Statistic" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
+      <window_info id="JavaEE:App" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
+      <window_info id="Persistence" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="8" side_tool="true" content_ui="tabs" />
+      <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Java Enterprise" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="JRebel Executor" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
+      <window_info id="IDEtalk Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
+      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="9" side_tool="true" content_ui="tabs" />
+      <window_info id="IDEtalk" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
+      <window_info id="JSF" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="10" side_tool="false" content_ui="tabs" />
+      <window_info id="CDI" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
+      <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
+      <window_info id="Application Servers" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="11" side_tool="false" content_ui="tabs" />
+      <window_info id="Project" active="true" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.21884984" sideWeight="0.49923196" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32903227" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Designer" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="9" side_tool="false" content_ui="tabs" />
+      <window_info id="Palette" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
+      <window_info id="Bean Validation" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="12" side_tool="false" content_ui="tabs" />
+      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.3299539" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.4" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="4" side_tool="true" content_ui="tabs" />
+      <window_info id="JRebel" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="5" side_tool="true" content_ui="tabs" />
       <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.3299539" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
-      <window_info id="Web" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="4" side_tool="true" content_ui="tabs" />
-      <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="EJB" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="1" side_tool="true" content_ui="tabs" />
-      <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
-      <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="SLIDING" type="SLIDING" visible="false" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
-      <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="8" side_tool="false" content_ui="combo" />
-      <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="14" side_tool="false" content_ui="tabs" />
-      <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="9" side_tool="false" content_ui="tabs" />
-      <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="15" side_tool="false" content_ui="tabs" />
+      <window_info id="Web" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.21884984" sideWeight="0.50076807" order="6" side_tool="true" content_ui="tabs" />
+      <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="EJB" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="true" content_ui="tabs" />
+      <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
+      <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="SLIDING" type="SLIDING" visible="false" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
+      <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="10" side_tool="false" content_ui="combo" />
+      <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="15" side_tool="false" content_ui="tabs" />
+      <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="13" side_tool="false" content_ui="tabs" />
+      <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="16" side_tool="false" content_ui="tabs" />
     </layout>
   </component>
   <component name="Vcs.Log.UiProperties">
@@ -1601,6 +1707,8 @@
     <option name="myTodoPanelSettings">
       <TodoPanelSettings />
     </option>
+    <MESSAGE value="added some ui libs + basic ui structure" />
+    <option name="LAST_COMMIT_MESSAGE" value="added some ui libs + basic ui structure" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager />
@@ -1610,51 +1718,6 @@
     <option name="FILTER_TARGETS" value="false" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/et-ejb/src/main/java/ru/vmakarenko/filter/ExpensesFilter.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="9" column="13" selection-start="149" selection-end="149" vertical-scroll-proportion="0.0" vertical-offset="153" max-vertical-offset="1513" />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/et-ejb/src/main/java/ru/vmakarenko/services/impl/UserServiceImpl.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="12" column="13" selection-start="284" selection-end="284" vertical-scroll-proportion="0.0" vertical-offset="204" max-vertical-offset="476">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/et-ejb/src/main/java/ru/vmakarenko/services/ExpensesService.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="12" column="12" selection-start="233" selection-end="233" vertical-scroll-proportion="0.0" vertical-offset="204" max-vertical-offset="442">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/et-ear/META-INF/MANIFEST.MF">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="136" />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/et-ear/META-INF/application.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="2" column="52" selection-start="186" selection-end="186" vertical-scroll-proportion="0.0" vertical-offset="34" max-vertical-offset="425">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/et-web/src/main/java/ru/vmakarenko/rest/AuthResource.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="18" column="7" selection-start="433" selection-end="433" vertical-scroll-proportion="0.0" vertical-offset="51" max-vertical-offset="510">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/et-web/src/main/webapp/WEB-INF/jboss-web.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="2" column="19" selection-start="70" selection-end="70" vertical-scroll-proportion="0.0" vertical-offset="34" max-vertical-offset="153">
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/et-common/pom.xml">
       <provider selected="true" editor-type-id="text-editor">
         <state line="8" column="26" selection-start="404" selection-end="404" vertical-scroll-proportion="0.0" vertical-offset="136" max-vertical-offset="442">
@@ -1795,7 +1858,9 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/et-ejb/src/main/java/ru/vmakarenko/filter/ExpensesFilter.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="9" column="13" selection-start="149" selection-end="149" vertical-scroll-proportion="0.16951567" vertical-offset="0" max-vertical-offset="935" />
+        <state line="9" column="13" selection-start="149" selection-end="149" vertical-scroll-proportion="0.16951567" vertical-offset="0" max-vertical-offset="935">
+          <folding />
+        </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/et-ejb/src/main/resources/META-INF/persistence.xml">
@@ -1830,12 +1895,16 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/et-ejb/et-ejb.iml">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="1020" />
+        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="1020">
+          <folding />
+        </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/et-ear/et-ear.iml">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="867" />
+        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="867">
+          <folding />
+        </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/et-web/pom.xml">
@@ -1873,23 +1942,9 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/et-ejb/src/main/java/ru/vmakarenko/services/impl/ExpensesServiceImpl.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="38" column="34" selection-start="1056" selection-end="1056" vertical-scroll-proportion="0.0" vertical-offset="183" max-vertical-offset="884">
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/et-ejb/src/main/java/ru/vmakarenko/services/ExpensesService.java">
       <provider selected="true" editor-type-id="text-editor">
         <state line="14" column="18" selection-start="270" selection-end="270" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="391">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/et-web/src/main/java/ru/vmakarenko/rest/ExpensesResource.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="32" column="8" selection-start="798" selection-end="798" vertical-scroll-proportion="0.0" vertical-offset="217" max-vertical-offset="1003">
           <folding />
         </state>
       </provider>
@@ -1901,25 +1956,9 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/et-web/src/main/webapp/index.jsp">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="10" column="44" selection-start="362" selection-end="362" vertical-scroll-proportion="-6.5384617" vertical-offset="0" max-vertical-offset="425">
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/et-web/src/main/webapp/assets/js/controllers/auth-controller.js">
       <provider selected="true" editor-type-id="text-editor">
         <state line="6" column="0" selection-start="0" selection-end="136" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="187">
-          <folding>
-            <element signature="e#0#43#0" expanded="false" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/et-web/src/main/webapp/assets/js/controllers/expenses-list-controller.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="5" column="38" selection-start="106" selection-end="106" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="187">
           <folding>
             <element signature="e#0#43#0" expanded="false" />
           </folding>
@@ -1935,9 +1974,9 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/et-web/src/main/webapp/assets/html/expenses-list.html">
+    <entry file="file://$PROJECT_DIR$/et-web/src/main/webapp/assets/html/auth-form.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="1" column="16" selection-start="22" selection-end="22" vertical-scroll-proportion="-0.65384614" vertical-offset="0" max-vertical-offset="136">
+        <state line="8" column="46" selection-start="202" selection-end="202" vertical-scroll-proportion="-5.230769" vertical-offset="0" max-vertical-offset="272">
           <folding />
         </state>
       </provider>
@@ -1949,16 +1988,99 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/et-web/src/main/webapp/assets/html/auth-form.html">
+    <entry file="file://$PROJECT_DIR$/et-web/src/main/java/ru/vmakarenko/rest/ExpensesResource.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="2" column="6" selection-start="35" selection-end="35" vertical-scroll-proportion="-1.3076923" vertical-offset="0" max-vertical-offset="136">
+        <state line="36" column="0" selection-start="916" selection-end="916" vertical-scroll-proportion="0.3472" vertical-offset="208" max-vertical-offset="833">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/et-ejb/src/main/java/ru/vmakarenko/services/impl/ExpensesServiceImpl.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="24" column="6" selection-start="703" selection-end="703" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="969">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/et-web/src/main/webapp/assets/css/lib/bootstrap/bootstrap-theme.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="9" column="9" selection-start="219" selection-end="221" vertical-scroll-proportion="-6.12" vertical-offset="0" max-vertical-offset="8194">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/et-web/src/main/webapp/assets/css/lib/bootstrap/bootstrap.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="1307" column="0" selection-start="21506" selection-end="21506" vertical-scroll-proportion="-7.8" vertical-offset="22024" max-vertical-offset="111724">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/et-web/src/main/webapp/assets/css/styles.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="14" column="28" selection-start="256" selection-end="256" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="374">
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/et-web/src/main/webapp/assets/js/app.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="19" column="41" selection-start="659" selection-end="659" vertical-scroll-proportion="0.4624" vertical-offset="0" max-vertical-offset="625">
+        <state line="18" column="40" selection-start="595" selection-end="595" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="476">
+          <folding>
+            <element signature="e#0#43#0" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/et-web/src/main/webapp/index.jsp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="26" column="7" selection-start="1069" selection-end="1069" vertical-scroll-proportion="-15.538462" vertical-offset="38" max-vertical-offset="697">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/et-web/src/main/webapp/assets/html/directives/expense-unit.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="15" column="68" selection-start="443" selection-end="443" vertical-scroll-proportion="-9.807693" vertical-offset="0" max-vertical-offset="476">
+          <folding>
+            <element signature="n#style#0;n#div#0;n#!!top" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/et-web/src/main/webapp/assets/html/new-expense.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="4" column="72" selection-start="227" selection-end="227" vertical-scroll-proportion="-2.6153846" vertical-offset="0" max-vertical-offset="969">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/et-web/src/main/webapp/assets/js/directive/expense-unit.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="16" column="7" selection-start="401" selection-end="401" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="561">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/et-web/src/main/webapp/assets/js/controllers/expenses-list-controller.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="20" column="13" selection-start="445" selection-end="445" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="748">
+          <folding>
+            <element signature="e#0#43#0" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/et-web/src/main/webapp/assets/html/expenses-list.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="7" column="10" selection-start="346" selection-end="346" vertical-scroll-proportion="-4.576923" vertical-offset="0" max-vertical-offset="629">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/et-web/src/main/webapp/assets/js/services/expenses-service.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="24" column="0" selection-start="551" selection-end="551" vertical-scroll-proportion="0.5984" vertical-offset="0" max-vertical-offset="625">
           <folding>
             <element signature="e#0#43#0" expanded="false" />
           </folding>
