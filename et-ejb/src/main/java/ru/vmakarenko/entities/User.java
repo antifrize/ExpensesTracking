@@ -1,5 +1,7 @@
 package ru.vmakarenko.entities;
 
+import org.hibernate.annotations.Proxy;
+
 import javax.persistence.Column;
 import javax.persistence.Entity;
 import javax.persistence.Table;
@@ -8,22 +10,15 @@ import javax.persistence.Table;
  * Created by VMakarenko on 2/3/15.
  */
 @Entity
-@Table(name="USER")
+@Table(name="ET_USER")
+@Proxy(lazy = false)
 public class User extends DefaultEntity {
-    @Column(name="USER")
-    private String user;
+    @Column(name="USERNAME")
+    private String username;
     @Column(name="PASSWORD")
     private String password;
     @Column(name="EMAIL")
     private String eMail;
-
-    public String getUser() {
-        return user;
-    }
-
-    public void setUser(String user) {
-        this.user = user;
-    }
 
     public String getPassword() {
         return password;
@@ -39,5 +34,13 @@ public class User extends DefaultEntity {
 
     public void seteMail(String eMail) {
         this.eMail = eMail;
+    }
+
+    public String getUsername() {
+        return username;
+    }
+
+    public void setUsername(String name) {
+        this.username = name;
     }
 }

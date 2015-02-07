@@ -1,14 +1,15 @@
 package ru.vmakarenko.entities;
 
-import javax.persistence.Column;
-import javax.persistence.Id;
-import javax.persistence.Version;
+import javax.persistence.*;
 
 /**
  * Created by VMakarenko on 2/4/15.
  */
+@MappedSuperclass
 public class DefaultEntity {
     @Id
+    @SequenceGenerator(name = "id_seq_gen", sequenceName = "default_id_seq")
+    @GeneratedValue(strategy = GenerationType.SEQUENCE, generator = "id_seq_gen")
     @Column(name="id")
     private Long id;
     @Version

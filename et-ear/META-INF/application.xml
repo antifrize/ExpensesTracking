@@ -1,15 +1,18 @@
-<application xmlns="http://java.sun.com/xml/ns/j2ee" version="1.4"
+<application xmlns="http://java.sun.com/xml/ns/javaee" version="6"
              xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
-             xsi:schemaLocation="http://java.sun.com /xml/ns/j2ee
-                             http://java.sun.com/xml/ns/j2ee/application_1_4.xsd">
+             xsi:schemaLocation="http://java.sun.com/xml/ns/javaee
+                             http://java.sun.com/xml/ns/javaee/application_6.xsd">
     <display-name>et.ear</display-name>
 
     <module>
         <ejb>et-ejb-1.0.jar</ejb>
     </module>
     <module>
+        <java>et-common-1.0.jar</java>
+    </module>
+    <module>
         <web>
-            <web-uri>et-web.war</web-uri>
+            <web-uri>et-web-1.0.war</web-uri>
             <context-root>/expenses</context-root>
         </web>
     </module>

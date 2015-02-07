@@ -1,10 +1,20 @@
 <%-- Created by IntelliJ IDEA. --%>
-<%@ page contentType="text/html;charset=UTF-8" language="java" %>
+<%@ page contentType="text/html;charset=UTF-8" %>
 <html>
-  <head>
+<head>
     <title></title>
-  </head>
-  <body>
 
-  </body>
+    <script src="assets/js/lib/jquery/jquery-1.11.2.js"></script>
+    <script src="assets/js/lib/jquery-ui/jquery-ui.js"></script>
+    <script src="assets/js/lib/angular/angular.min.js"></script>
+
+    <script src="assets/js/app.js"></script>
+
+</head>
+<body>
+<div ng-view>
+
+</div>
+
+</body>
 </html>

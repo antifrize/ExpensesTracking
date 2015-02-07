@@ -5,8 +5,10 @@ import ru.vmakarenko.entities.Expense;
 import ru.vmakarenko.filter.ExpensesFilter;
 import ru.vmakarenko.services.ExpensesService;
 
+import javax.enterprise.context.ApplicationScoped;
 import javax.inject.Inject;
 import javax.ws.rs.*;
+import javax.ws.rs.core.MediaType;
 import javax.ws.rs.core.Response;
 import javax.ws.rs.core.SecurityContext;
 import java.util.List;
@@ -15,29 +17,34 @@ import java.util.List;
  * Created by VMakarenko on 2/4/15.
  */
 
+@ApplicationScoped
 @Path("expenses")
 public class ExpensesResource {
     @Inject
-    ExpensesService expensesService;
+    private ExpensesService expensesService;
 
     @GET
-    @Path("{id: \\d+}")
-    public Expense getById(@PathParam(value = "id") @NotNull Long id){
+    @Path("/{id}")
+    @Produces(MediaType.APPLICATION_JSON)
+    public Expense getById(@PathParam(value = "id") Long id){
         return expensesService.getById(id);
     }
 
     @GET
+    @Produces(MediaType.APPLICATION_JSON)
     public List<Expense> getAll(ExpensesFilter filter){
         return expensesService.getAll(filter);
     }
 
     @PUT
+    @Consumes(MediaType.APPLICATION_JSON)
     public Response updateExpense(Expense expense){
         expensesService.update(expense);
         return Response.ok().build();
     }
 
     @POST
+    @Consumes(MediaType.APPLICATION_JSON)
     public Response createExpense(Expense expense){
         expensesService.create(expense);
         return Response.ok().build();
