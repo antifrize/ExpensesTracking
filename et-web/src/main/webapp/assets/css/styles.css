@@ -12,5 +12,9 @@
 }
 .expense-unit{
     padding: 10px 0 10px 0;
-    background-color: azure;
+    background-color: beige;
+}
+.filter-form{
+    background-color: beige;
+    padding: 10px 10px 10px 10px;
 }

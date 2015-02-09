@@ -19,7 +19,35 @@ angular.module('app', [
                     templateUrl: 'assets/html/reg-form.html',
                     controller: 'RegistrationController'
                 }).
+                when('/print/:dateFrom/:dateTo', {
+                    templateUrl: 'assets/html/print-list.html',
+                    controller: 'PrintController'
+                }).
                 otherwise({
                     redirectTo: '/list'
                 });
-        }]);
+        }]).factory('authFactory', ['$rootScope', '$http', function ($rootScope, $http) {
+
+        var authFactory = {
+            authData: undefined
+        };
+
+        authFactory.login = function (user) {
+            return $http.post('http://localhost:8080/expenses/api/auth/', user);
+        };
+
+        return authFactory;
+    }])
+    .controller('LoginCtrl', ['$scope', 'authFactory', function LoginCtrl($scope, authFactory) {
+        $scope.login = function (user) {
+            authFactory.login(user).success(function (data) {
+                authFactory.setAuthData(data);
+                // Redirect etc.
+            }).error(function () {
+                    // Error handling
+                });
+        };
+    }])
+
+
+;

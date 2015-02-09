@@ -7,4 +7,6 @@ import ru.vmakarenko.entities.User;
  */
 public interface UserService {
     public User getByPrincipal(String user);
+
+    void createUser(User user);
 }

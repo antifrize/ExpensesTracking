@@ -9,6 +9,9 @@ import javax.ejb.Stateless;
 import javax.inject.Named;
 import javax.persistence.EntityManager;
 import javax.persistence.PersistenceContext;
+import javax.persistence.criteria.CriteriaQuery;
+import javax.persistence.criteria.Predicate;
+import javax.persistence.criteria.Root;
 import java.util.List;
 
 /**
@@ -23,7 +26,15 @@ public class UserServiceImpl implements UserService {
 
     @Override
     public User getByPrincipal(String user) {
-        List<User> userList = em.createQuery(em.getCriteriaBuilder().createQuery(User.class)).getResultList();
+        // TODO shitty stuff
+        List<User> userList = em.createQuery("select u from User u where u.username like '%" + user + "%'", User.class)
+//                .setParameter("username", user)
+                .getResultList();
         return userList.size() > 0 ? userList.get(0) : null;
+    }
+
+    @Override
+    public void createUser(User user) {
+        em.persist(user);
     }
 }

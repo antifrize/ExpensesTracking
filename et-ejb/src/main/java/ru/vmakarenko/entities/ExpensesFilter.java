@@ -1,4 +1,4 @@
-package ru.vmakarenko.filter;
+package ru.vmakarenko.entities;
 
 import ru.vmakarenko.entities.User;
 
@@ -8,30 +8,14 @@ import java.util.Date;
  * Created by VMakarenko on 2/4/15.
  */
 public class ExpensesFilter {
-    private int page;
-    private int itemsPerPage;
     private Integer amountMin;
     private Integer amountMax;
-    private Date dateFrom;
-    private Date dateTo;
+    private String dateFrom;
+    private String dateTo;
     private String description;
+    private String comment;
     private User user;
 
-    public int getPage() {
-        return page;
-    }
-
-    public void setPage(int page) {
-        this.page = page;
-    }
-
-    public int getItemsPerPage() {
-        return itemsPerPage;
-    }
-
-    public void setItemsPerPage(int itemsPerPage) {
-        this.itemsPerPage = itemsPerPage;
-    }
 
     public Integer getAmountMin() {
         return amountMin;
@@ -49,19 +33,19 @@ public class ExpensesFilter {
         this.amountMax = amountMax;
     }
 
-    public Date getDateFrom() {
+    public String getDateFrom() {
         return dateFrom;
     }
 
-    public void setDateFrom(Date dateFrom) {
+    public void setDateFrom(String dateFrom) {
         this.dateFrom = dateFrom;
     }
 
-    public Date getDateTo() {
+    public String getDateTo() {
         return dateTo;
     }
 
-    public void setDateTo(Date dateTo) {
+    public void setDateTo(String dateTo) {
         this.dateTo = dateTo;
     }
 
@@ -79,5 +63,13 @@ public class ExpensesFilter {
 
     public void setUser(User user) {
         this.user = user;
+    }
+
+    public String getComment() {
+        return comment;
+    }
+
+    public void setComment(String comment) {
+        this.comment = comment;
     }
 }

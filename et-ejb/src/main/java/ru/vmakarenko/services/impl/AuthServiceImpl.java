@@ -14,4 +14,8 @@ import javax.inject.Named;
 @Local(AuthService.class)
 @Named
 public class AuthServiceImpl implements AuthService {
+    @Override
+    public boolean isAuthorized(String authId, String authToken) {
+        return false;
+    }
 }

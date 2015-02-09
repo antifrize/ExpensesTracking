@@ -2,9 +2,14 @@ package ru.vmakarenko.entities;
 
 import org.codehaus.jackson.annotate.JsonIgnore;
 import org.hibernate.annotations.Proxy;
+import org.hibernate.type.StringClobType;
+import ru.vmakarenko.common.AppConsts;
 
 import javax.persistence.*;
 import javax.xml.bind.annotation.XmlRootElement;
+import java.text.ParseException;
+import java.text.SimpleDateFormat;
+import java.util.Calendar;
 import java.util.Date;
 
 /**
@@ -12,24 +17,31 @@ import java.util.Date;
  */
 @XmlRootElement
 @Entity
-@Table(name="EXPENSE")
+@Table(name = "EXPENSE")
 @Proxy(lazy = false)
-public class Expense extends DefaultEntity{
+public class Expense extends DefaultEntity {
+
     @Temporal(TemporalType.TIMESTAMP)
-    @Column(name="DATE_TIME")
+    @Column(name = "DATE_TIME")
     private Date dateTime;
-    @Column(name="DESCRIPTION")
+
+    @Transient
+    private String date;
+    @Transient
+    private String time;
+
+    @Column(name = "DESCRIPTION", length = 40)
     private String description;
-    @Column(name="USER_COMMENT")
+    @Column(name = "USER_COMMENT", length = 40)
     private String comment;
-    @Column(name="AMOUNT")
+    @Column(name = "AMOUNT")
     private int amount;
-    // TODO why eager?
-    @ManyToOne(fetch = FetchType.EAGER)
-    @JoinColumn(name="USER_ID")
+    @ManyToOne(fetch = FetchType.LAZY)
+    @JoinColumn(name = "USER_ID")
     @JsonIgnore
     private User user;
 
+    @JsonIgnore
     public Date getDateTime() {
         return dateTime;
     }
@@ -68,5 +80,45 @@ public class Expense extends DefaultEntity{
 
     public void setUser(User user) {
         this.user = user;
+    }
+
+    public String getDate() {
+        return date;
+    }
+
+    public void setDate(String date) {
+        this.date = date;
+    }
+
+    public String getTime() {
+        return time;
+    }
+
+    public void setTime(String time) {
+        this.time = time;
+    }
+
+    @PostLoad
+    public void postLoad() {
+        date = new SimpleDateFormat(AppConsts.DATE_FORMAT).format(dateTime);
+        time = new SimpleDateFormat(AppConsts.TIME_FORMAT).format(dateTime);
+    }
+
+    @PrePersist
+    @PreUpdate
+    public void prePersist() {
+        long timeL = 0L;
+        try {
+            if (date != null) {
+                timeL += new SimpleDateFormat(AppConsts.DATE_FORMAT).parse(date).getTime();
+            }
+            if (time != null) {
+                timeL += new SimpleDateFormat(AppConsts.TIME_FORMAT).parse(time).getTime();
+            }
+            dateTime = new Date(timeL);
+        } catch (ParseException e) {
+            // TODO logging
+        }
+
     }
 }

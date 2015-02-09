@@ -1,7 +1,7 @@
 package ru.vmakarenko.services;
 
 import ru.vmakarenko.entities.Expense;
-import ru.vmakarenko.filter.ExpensesFilter;
+import ru.vmakarenko.entities.ExpensesFilter;
 
 import java.util.List;
 
@@ -17,4 +17,6 @@ public interface ExpensesService {
     void update(Expense expense);
 
     void create(Expense expense);
+
+    void delete(Long id);
 }

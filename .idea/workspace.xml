@@ -1,33 +1,42 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="b9823c7e-9893-464d-a174-46ac7c18e51b" name="Default" comment="added some ui libs + basic ui structure&#10;">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/et-web/src/main/webapp/assets/fonts/glyphicons-halflings-regular.eot" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/et-web/src/main/webapp/assets/fonts/glyphicons-halflings-regular.ttf" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/et-web/src/main/webapp/assets/fonts/glyphicons-halflings-regular.woff2" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/et-web/src/main/webapp/assets/fonts/glyphicons-halflings-regular.woff" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/et-web/src/main/webapp/assets/js/lib/angular/angular-route.min.js.map" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/et-web/src/main/webapp/assets/js/lib/angular/angular-route.min.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/et-web/src/main/webapp/assets/js/lib/angular/angular.min.js.map" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/et-web/src/main/webapp/assets/css/lib/bootstrap/bootstrap-theme.css.map" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/et-web/src/main/webapp/assets/css/lib/bootstrap/bootstrap-theme.css" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/et-web/src/main/webapp/assets/css/lib/bootstrap/bootstrap.css.map" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/et-web/src/main/webapp/assets/css/lib/bootstrap/bootstrap.css" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/et-web/src/main/webapp/assets/js/lib/bootstrap/bootstrap.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/et-web/src/main/webapp/assets/html/directives/expense-unit.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/et-web/src/main/webapp/assets/js/directive/expense-unit.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/et-web/src/main/webapp/assets/js/services/expenses-service.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/et-web/src/main/webapp/assets/fonts/glyphicons-halflings-regular.svg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/et-web/src/main/webapp/assets/html/new-expense.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/et-web/src/main/webapp/assets/css/styles.css" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/et-web/src/main/webapp/assets/js/lib/angular-ui/ui-bootstrap-tpls-0.12.0.js" />
+    <list default="true" id="b9823c7e-9893-464d-a174-46ac7c18e51b" name="Default" comment="">
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/et-ejb/src/main/java/ru/vmakarenko/common/AppConsts.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/et-web/src/main/java/ru/vmakarenko/filters/AuthSecurityFilter.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__joda_time_joda_time_2_7.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/et-ejb/src/main/resources/META-INF/beans.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/et-web/src/main/webapp/assets/js/controllers/print-controller.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/et-web/src/main/webapp/assets/html/print-expense.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/et-web/src/main/webapp/assets/html/print-list.html" />
+      <change type="MOVED" beforePath="C:\Users\VMakarenko\Documents\Work\Interview\ExpensesTracking\et-ejb\src\main\java\ru\vmakarenko\filter\ExpensesFilter.java" afterPath="$PROJECT_DIR$/et-ejb/src/main/java/ru/vmakarenko/entities/ExpensesFilter.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/et-web/src/main/java/ru/vmakarenko/rest/AuthResource.java" afterPath="$PROJECT_DIR$/et-web/src/main/java/ru/vmakarenko/rest/AuthResource.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/et-ejb/src/main/java/ru/vmakarenko/services/AuthService.java" afterPath="$PROJECT_DIR$/et-ejb/src/main/java/ru/vmakarenko/services/AuthService.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/et-ejb/src/main/java/ru/vmakarenko/services/impl/AuthServiceImpl.java" afterPath="$PROJECT_DIR$/et-ejb/src/main/java/ru/vmakarenko/services/impl/AuthServiceImpl.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/et-ejb/src/main/java/ru/vmakarenko/entities/Expense.java" afterPath="$PROJECT_DIR$/et-ejb/src/main/java/ru/vmakarenko/entities/Expense.java" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/et-web/src/main/java/ru/vmakarenko/rest/ExpensesResource.java" afterPath="$PROJECT_DIR$/et-web/src/main/java/ru/vmakarenko/rest/ExpensesResource.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/et-ejb/src/main/java/ru/vmakarenko/services/ExpensesService.java" afterPath="$PROJECT_DIR$/et-ejb/src/main/java/ru/vmakarenko/services/ExpensesService.java" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/et-ejb/src/main/java/ru/vmakarenko/services/impl/ExpensesServiceImpl.java" afterPath="$PROJECT_DIR$/et-ejb/src/main/java/ru/vmakarenko/services/impl/ExpensesServiceImpl.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/et-ear/META-INF/MANIFEST.MF" afterPath="$PROJECT_DIR$/et-ear/META-INF/MANIFEST.MF" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/et-ejb/src/main/java/ru/vmakarenko/entities/User.java" afterPath="$PROJECT_DIR$/et-ejb/src/main/java/ru/vmakarenko/entities/User.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/et-ejb/src/main/java/ru/vmakarenko/services/UserService.java" afterPath="$PROJECT_DIR$/et-ejb/src/main/java/ru/vmakarenko/services/UserService.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/et-ejb/src/main/java/ru/vmakarenko/services/impl/UserServiceImpl.java" afterPath="$PROJECT_DIR$/et-ejb/src/main/java/ru/vmakarenko/services/impl/UserServiceImpl.java" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/et-web/src/main/webapp/assets/js/app.js" afterPath="$PROJECT_DIR$/et-web/src/main/webapp/assets/js/app.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/et-web/src/main/webapp/assets/html/auth-form.html" afterPath="$PROJECT_DIR$/et-web/src/main/webapp/assets/html/auth-form.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/et-ear/et-ear.iml" afterPath="$PROJECT_DIR$/et-ear/et-ear.iml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/et-ejb/et-ejb.iml" afterPath="$PROJECT_DIR$/et-ejb/et-ejb.iml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/et-web/et-web.iml" afterPath="$PROJECT_DIR$/et-web/et-web.iml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/artifacts/et_ear_ear.xml" afterPath="$PROJECT_DIR$/.idea/artifacts/et_ear_ear.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/artifacts/et_ear_ear_exploded.xml" afterPath="$PROJECT_DIR$/.idea/artifacts/et_ear_ear_exploded.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/artifacts/et_ejb_ejb.xml" afterPath="$PROJECT_DIR$/.idea/artifacts/et_ejb_ejb.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/et-web/src/main/webapp/assets/html/directives/expense-unit.html" afterPath="$PROJECT_DIR$/et-web/src/main/webapp/assets/html/directives/expense-unit.html" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/et-web/src/main/webapp/assets/js/controllers/expenses-list-controller.js" afterPath="$PROJECT_DIR$/et-web/src/main/webapp/assets/js/controllers/expenses-list-controller.js" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/et-web/src/main/webapp/assets/html/expenses-list.html" afterPath="$PROJECT_DIR$/et-web/src/main/webapp/assets/html/expenses-list.html" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/et-web/src/main/webapp/index.jsp" afterPath="$PROJECT_DIR$/et-web/src/main/webapp/index.jsp" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/et-web/src/main/webapp/assets/html/new-expense.html" afterPath="$PROJECT_DIR$/et-web/src/main/webapp/assets/html/new-expense.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/et-ejb/src/main/resources/META-INF/persistence.xml" afterPath="$PROJECT_DIR$/et-ejb/src/main/resources/META-INF/persistence.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/et-ejb/pom.xml" afterPath="$PROJECT_DIR$/et-ejb/pom.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/et-web/src/main/webapp/assets/css/styles.css" afterPath="$PROJECT_DIR$/et-web/src/main/webapp/assets/css/styles.css" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/et-web/src/main/webapp/WEB-INF/web.xml" afterPath="$PROJECT_DIR$/et-web/src/main/webapp/WEB-INF/web.xml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
     </list>
     <ignored path="ExpensesTracking.iws" />
@@ -93,10 +102,76 @@
   </component>
   <component name="FileEditorManager">
     <leaf>
+      <file leaf-file-name="Expense.java" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/et-ejb/src/main/java/ru/vmakarenko/entities/Expense.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="20" column="20" selection-start="513" selection-end="513" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="1564">
+              <folding>
+                <element signature="imports" expanded="false" />
+                <element signature="e#1106#1107#0" expanded="false" />
+                <element signature="e#1137#1138#0" expanded="false" />
+                <element signature="e#1183#1184#0" expanded="false" />
+                <element signature="e#1223#1224#0" expanded="false" />
+                <element signature="e#1261#1262#0" expanded="false" />
+                <element signature="e#1295#1296#0" expanded="false" />
+                <element signature="e#1349#1350#0" expanded="false" />
+                <element signature="e#1395#1396#0" expanded="false" />
+                <element signature="e#1429#1430#0" expanded="false" />
+                <element signature="e#1459#1460#0" expanded="false" />
+                <element signature="e#1505#1506#0" expanded="false" />
+                <element signature="e#1543#1544#0" expanded="false" />
+                <element signature="e#1573#1574#0" expanded="false" />
+                <element signature="e#1602#1603#0" expanded="false" />
+                <element signature="e#1643#1644#0" expanded="false" />
+                <element signature="e#1679#1680#0" expanded="false" />
+                <element signature="e#1708#1709#0" expanded="false" />
+                <element signature="e#1735#1736#0" expanded="false" />
+                <element signature="e#1773#1774#0" expanded="false" />
+                <element signature="e#1805#1806#0" expanded="false" />
+                <element signature="e#1836#1837#0" expanded="false" />
+                <element signature="e#1863#1864#0" expanded="false" />
+                <element signature="e#1903#1904#0" expanded="false" />
+                <element signature="e#1935#1936#0" expanded="false" />
+                <element signature="e#1966#1967#0" expanded="false" />
+                <element signature="e#1993#1994#0" expanded="false" />
+                <element signature="e#2033#2034#0" expanded="false" />
+                <element signature="e#2065#2066#0" expanded="false" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="UserServiceImpl.java" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/et-ejb/src/main/java/ru/vmakarenko/services/impl/UserServiceImpl.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="23" column="23" selection-start="652" selection-end="652" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="578">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="ExpensesResource.java" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/et-web/src/main/java/ru/vmakarenko/rest/ExpensesResource.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="2" column="0" selection-start="29" selection-end="29" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="1122">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="web.xml" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/et-web/src/main/webapp/WEB-INF/web.xml">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="21" column="91" selection-start="863" selection-end="863" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="1139">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
       <file leaf-file-name="app.js" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/et-web/src/main/webapp/assets/js/app.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="18" column="40" selection-start="595" selection-end="595" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="476">
+            <state line="35" column="69" selection-start="1243" selection-end="1245" vertical-scroll-proportion="0.0" vertical-offset="176" max-vertical-offset="952">
               <folding>
                 <element signature="e#0#43#0" expanded="false" />
               </folding>
@@ -104,88 +179,51 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="expenses-list.html" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/et-web/src/main/webapp/assets/html/expenses-list.html">
+      <file leaf-file-name="AuthSecurityFilter.java" pinned="false" current="true" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/et-web/src/main/java/ru/vmakarenko/filters/AuthSecurityFilter.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="7" column="10" selection-start="346" selection-end="346" vertical-scroll-proportion="-4.576923" vertical-offset="0" max-vertical-offset="629">
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="expenses-list-controller.js" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/et-web/src/main/webapp/assets/js/controllers/expenses-list-controller.js">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="20" column="13" selection-start="445" selection-end="445" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="748">
+            <state line="34" column="12" selection-start="981" selection-end="981" vertical-scroll-proportion="0.33238232" vertical-offset="345" max-vertical-offset="1139">
               <folding>
-                <element signature="e#0#43#0" expanded="false" />
+                <element signature="imports" expanded="true" />
               </folding>
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="expenses-service.js" pinned="false" current="true" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/et-web/src/main/webapp/assets/js/services/expenses-service.js">
+      <file leaf-file-name="AuthServiceImpl.java" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/et-ejb/src/main/java/ru/vmakarenko/services/impl/AuthServiceImpl.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="24" column="0" selection-start="551" selection-end="551" vertical-scroll-proportion="0.5984" vertical-offset="0" max-vertical-offset="625">
+            <state line="17" column="8" selection-start="327" selection-end="327" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="391">
               <folding>
-                <element signature="e#0#43#0" expanded="false" />
+                <element signature="imports" expanded="false" />
+                <marker date="1423427593027" expanded="true" signature="384:413" placeholder="{...}" />
               </folding>
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="index.jsp" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/et-web/src/main/webapp/index.jsp">
+      <file leaf-file-name="AuthService.java" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/et-ejb/src/main/java/ru/vmakarenko/services/AuthService.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="26" column="7" selection-start="1069" selection-end="1069" vertical-scroll-proportion="-15.538462" vertical-offset="38" max-vertical-offset="697">
+            <state line="6" column="4" selection-start="112" selection-end="112" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="238">
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="new-expense.html" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/et-web/src/main/webapp/assets/html/new-expense.html">
+      <file leaf-file-name="print-controller.js" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/et-web/src/main/webapp/assets/js/controllers/print-controller.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="4" column="72" selection-start="227" selection-end="227" vertical-scroll-proportion="-2.6153846" vertical-offset="0" max-vertical-offset="969">
+            <state line="19" column="42" selection-start="721" selection-end="721" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="527">
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="expense-unit.html" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/et-web/src/main/webapp/assets/html/directives/expense-unit.html">
+      <file leaf-file-name="pom.xml" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/et-ejb/pom.xml">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="15" column="68" selection-start="443" selection-end="443" vertical-scroll-proportion="-9.807693" vertical-offset="0" max-vertical-offset="476">
-              <folding>
-                <element signature="n#style#0;n#div#0;n#!!top" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="expense-unit.js" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/et-web/src/main/webapp/assets/js/directive/expense-unit.js">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="16" column="7" selection-start="401" selection-end="401" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="561">
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="styles.css" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/et-web/src/main/webapp/assets/css/styles.css">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="14" column="28" selection-start="256" selection-end="256" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="374">
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="bootstrap.css" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/et-web/src/main/webapp/assets/css/lib/bootstrap/bootstrap.css">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="1307" column="0" selection-start="21506" selection-end="21506" vertical-scroll-proportion="-7.8" vertical-offset="22024" max-vertical-offset="111724">
+            <state line="61" column="21" selection-start="1945" selection-end="1945" vertical-scroll-proportion="0.0" vertical-offset="497" max-vertical-offset="1207">
               <folding />
             </state>
           </provider>
@@ -204,57 +242,57 @@
   <component name="IdeDocumentHistory">
     <option name="changedFiles">
       <list>
-        <option value="$PROJECT_DIR$/src/main/java/ru/vmakarenko/entities/Expense.java" />
-        <option value="$PROJECT_DIR$/src/main/java/ru/vmakarenko/entities/User.java" />
-        <option value="$PROJECT_DIR$/src/main/java/ru/vmakarenko/entities/DefaultEntity.java" />
-        <option value="$PROJECT_DIR$/src/main/java/ru/vmakarenko/filter/ExpensesFilter.java" />
-        <option value="$PROJECT_DIR$/src/main/java/ru/vmakarenko/rest/ExpensesResource.java" />
-        <option value="$PROJECT_DIR$/src/main/java/ru/vmakarenko/services/UserService.java" />
-        <option value="$PROJECT_DIR$/src/main/java/ru/vmakarenko/services/impl/UserServiceImpl.java" />
-        <option value="$PROJECT_DIR$/src/main/java/ru/vmakarenko/services/impl/ExpensesServiceImpl.java" />
-        <option value="$PROJECT_DIR$/et-ejb/src/main/java/ru/vmakarenko/filter/ExpensesFilter.java" />
-        <option value="$PROJECT_DIR$/et-ejb/src/main/java/ru/vmakarenko/rest/AuthResource.java" />
         <option value="$PROJECT_DIR$/et-ejb/src/main/java/ru/vmakarenko/rest/ExpensesResource.java" />
-        <option value="$PROJECT_DIR$/et-ejb/src/main/java/ru/vmakarenko/services/AuthService.java" />
-        <option value="$PROJECT_DIR$/et-ejb/src/main/java/ru/vmakarenko/services/ExpensesService.java" />
-        <option value="$PROJECT_DIR$/et-ejb/src/main/java/ru/vmakarenko/services/UserService.java" />
         <option value="$PROJECT_DIR$/common/pom.xml" />
         <option value="$PROJECT_DIR$/et-common/src/main/java/ru/vmakarenko/entities/User.java" />
         <option value="$PROJECT_DIR$/et-common/pom.xml" />
         <option value="$PROJECT_DIR$/et-web/web/WEB-INF/jboss-web.xml" />
         <option value="$PROJECT_DIR$/et-common/web/WEB-INF/web.xml" />
         <option value="$PROJECT_DIR$/et-web/web/WEB-INF/web.xml" />
-        <option value="$PROJECT_DIR$/et-ear/pom.xml" />
-        <option value="$PROJECT_DIR$/et-web/src/main/java/ru/vmakarenko/rest/AuthResource.java" />
         <option value="$PROJECT_DIR$/pom.xml" />
         <option value="$PROJECT_DIR$/et-ear/META-INF/application.xml" />
-        <option value="$PROJECT_DIR$/et-ejb/src/main/resources/META-INF/persistence.xml" />
         <option value="$PROJECT_DIR$/et-ejb/src/main/java/ru/vmakarenko/entities/DefaultEntity.java" />
-        <option value="$PROJECT_DIR$/et-ejb/src/main/java/ru/vmakarenko/services/impl/AuthServiceImpl.java" />
-        <option value="$PROJECT_DIR$/et-ejb/src/main/java/ru/vmakarenko/services/impl/UserServiceImpl.java" />
         <option value="$PROJECT_DIR$/et-web/pom.xml" />
-        <option value="$PROJECT_DIR$/et-web/src/main/webapp/WEB-INF/web.xml" />
-        <option value="$PROJECT_DIR$/et-ejb/pom.xml" />
-        <option value="$PROJECT_DIR$/et-ejb/src/main/java/ru/vmakarenko/entities/Expense.java" />
-        <option value="$PROJECT_DIR$/et-ejb/src/main/java/ru/vmakarenko/entities/User.java" />
         <option value="$PROJECT_DIR$/et-web/src/main/webapp/assets/js/controllers/auth-controller.js" />
         <option value="$PROJECT_DIR$/et-web/src/main/webapp/assets/js/controllers/reg-controller.js" />
         <option value="$PROJECT_DIR$/et-web/src/main/webapp/assets/html/reg-form.html" />
-        <option value="$PROJECT_DIR$/et-web/src/main/webapp/assets/js/app.js" />
         <option value="$PROJECT_DIR$/et-web/src/main/webapp/assets/html/auth-form.html" />
         <option value="$PROJECT_DIR$/et-web/src/main/webapp/assets/js/services/ExpensesService.js" />
-        <option value="$PROJECT_DIR$/et-web/src/main/java/ru/vmakarenko/rest/ExpensesResource.java" />
-        <option value="$PROJECT_DIR$/et-web/src/main/webapp/assets/js/services/expenses-service.js" />
-        <option value="$PROJECT_DIR$/et-ejb/src/main/java/ru/vmakarenko/services/impl/ExpensesServiceImpl.java" />
         <option value="$PROJECT_DIR$/et-web/src/main/webapp/assets/html/directive/expense-unit.html" />
         <option value="$PROJECT_DIR$/et-web/src/main/webapp/assets/css/lib/bootstrap/bootstrap.css" />
-        <option value="$PROJECT_DIR$/et-web/src/main/webapp/assets/css/styles.css" />
-        <option value="$PROJECT_DIR$/et-web/src/main/webapp/index.jsp" />
-        <option value="$PROJECT_DIR$/et-web/src/main/webapp/assets/html/new-expense.html" />
-        <option value="$PROJECT_DIR$/et-web/src/main/webapp/assets/js/controllers/expenses-list-controller.js" />
-        <option value="$PROJECT_DIR$/et-web/src/main/webapp/assets/html/directives/expense-unit.html" />
-        <option value="$PROJECT_DIR$/et-web/src/main/webapp/assets/html/expenses-list.html" />
         <option value="$PROJECT_DIR$/et-web/src/main/webapp/assets/js/directive/expense-unit.js" />
+        <option value="$PROJECT_DIR$/et-ejb/META-INF/MANIFEST.MF" />
+        <option value="$PROJECT_DIR$/et-ear/META-INF/MANIFEST.MF" />
+        <option value="$PROJECT_DIR$/et-ear/pom.xml" />
+        <option value="$PROJECT_DIR$/et-web/src/main/webapp/assets/html/directives/expense-unit.html" />
+        <option value="$PROJECT_DIR$/et-ejb/src/main/resources/META-INF/persistence.xml" />
+        <option value="$PROJECT_DIR$/et-web/src/main/webapp/assets/js/services/expenses-service.js" />
+        <option value="$PROJECT_DIR$/et-ejb/src/main/java/ru/vmakarenko/services/ExpensesService.java" />
+        <option value="$PROJECT_DIR$/et-web/src/main/java/ru/vmakarenko/rest/ExpensesResource.java" />
+        <option value="$PROJECT_DIR$/et-web/src/main/webapp/assets/css/styles.css" />
+        <option value="$PROJECT_DIR$/et-ejb/src/main/java/ru/vmakarenko/filter/ExpensesFilter.java" />
+        <option value="$PROJECT_DIR$/et-ejb/src/main/java/ru/vmakarenko/common/AppConsts.java" />
+        <option value="$PROJECT_DIR$/et-web/src/main/webapp/assets/html/expenses-list.html" />
+        <option value="$PROJECT_DIR$/et-ejb/src/main/java/ru/vmakarenko/services/impl/ExpensesServiceImpl.java" />
+        <option value="$PROJECT_DIR$/et-web/src/main/webapp/index.jsp" />
+        <option value="$PROJECT_DIR$/et-web/src/main/webapp/assets/html/print-list.html" />
+        <option value="$PROJECT_DIR$/et-ejb/src/main/java/ru/vmakarenko/entities/Expense.java" />
+        <option value="$PROJECT_DIR$/et-web/src/main/webapp/assets/html/print-expense.html" />
+        <option value="$PROJECT_DIR$/et-web/src/main/webapp/assets/js/controllers/expenses-list-controller.js" />
+        <option value="$PROJECT_DIR$/et-web/src/main/webapp/assets/html/new-expense.html" />
+        <option value="$PROJECT_DIR$/et-ejb/src/main/java/ru/vmakarenko/entities/User.java" />
+        <option value="$PROJECT_DIR$/et-ejb/src/main/java/ru/vmakarenko/services/UserService.java" />
+        <option value="$PROJECT_DIR$/et-ejb/src/main/java/ru/vmakarenko/services/impl/UserServiceImpl.java" />
+        <option value="$PROJECT_DIR$/et-web/src/main/java/ru/vmakarenko/rest/AuthResource.java" />
+        <option value="$PROJECT_DIR$/et-web/src/main/webapp/WEB-INF/web.xml" />
+        <option value="$PROJECT_DIR$/et-web/src/main/webapp/assets/js/app.js" />
+        <option value="$PROJECT_DIR$/et-ejb/src/main/java/ru/vmakarenko/services/AuthSecurityInterceptor.java" />
+        <option value="$PROJECT_DIR$/et-ejb/pom.xml" />
+        <option value="$PROJECT_DIR$/et-web/src/main/java/ru/vmakarenko/filters/AuthSecurityInterceptor.java" />
+        <option value="$PROJECT_DIR$/et-ejb/src/main/java/ru/vmakarenko/services/AuthService.java" />
+        <option value="$PROJECT_DIR$/et-ejb/src/main/java/ru/vmakarenko/services/impl/AuthServiceImpl.java" />
+        <option value="$PROJECT_DIR$/et-web/src/main/java/ru/vmakarenko/filters/AuthSecurityFilter.java" />
+        <option value="$PROJECT_DIR$/et-web/src/main/webapp/assets/js/controllers/print-controller.js" />
       </list>
     </option>
   </component>
@@ -300,6 +338,7 @@
       <sortByType />
     </navigator>
     <panes>
+      <pane id="PackagesPane" />
       <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
@@ -307,6 +346,10 @@
             <PATH_ELEMENT>
               <option name="myItemId" value="ExpensesTracking" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="External Libraries" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ExternalLibrariesNode" />
             </PATH_ELEMENT>
           </PATH>
           <PATH>
@@ -407,7 +450,79 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
+              <option name="myItemId" value="WEB-INF" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="ExpensesTracking" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="ExpensesTracking" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="et-web" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="src" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="main" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="webapp" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
               <option name="myItemId" value="assets" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="js" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="ExpensesTracking" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="ExpensesTracking" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="et-web" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="src" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="main" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="webapp" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="assets" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="js" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="controllers" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
@@ -641,7 +756,41 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
-              <option name="myItemId" value="rest" />
+              <option name="myItemId" value="vmakarenko" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="ExpensesTracking" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="ExpensesTracking" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="et-web" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="src" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="main" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="java" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="vmakarenko" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="filters" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
@@ -808,6 +957,10 @@
               <option name="myItemId" value="vmakarenko" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="entities" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
           </PATH>
           <PATH>
             <PATH_ELEMENT>
@@ -839,7 +992,7 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
-              <option name="myItemId" value="entities" />
+              <option name="myItemId" value="common" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
@@ -913,7 +1066,6 @@
           </PATH>
         </subPane>
       </pane>
-      <pane id="PackagesPane" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -937,16 +1089,19 @@
     <property name="project.structure.last.edited" value="Artifacts" />
     <property name="project.structure.proportion" value="0.15" />
     <property name="project.structure.side.proportion" value="0.2" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/et-ear" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/et-ear/META-INF/MANIFEST.MF" />
     <property name="FullScreen" value="false" />
     <property name="LayoutCode.rearrangeEntriesJSP" value="false" />
     <property name="DefaultHtmlFileTemplate" value="Html5" />
     <property name="LayoutCode.rearrangeEntriesHTML" value="false" />
+    <property name="LayoutCode.rearrangeEntriesJava" value="false" />
+    <property name="LayoutCode.rearrangeEntriesJavaScript" value="false" />
   </component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
-      <recent name="C:\Users\VMakarenko\Documents\Work\Interview\ExpensesTracking\et-web\src\main\webapp\assets\html" />
       <recent name="C:\Users\VMakarenko\Documents\Work\Interview\ExpensesTracking\et-web\src\main\webapp\assets\js\controllers" />
+      <recent name="C:\Users\VMakarenko\Documents\Work\Interview\ExpensesTracking\et-web\src\main\webapp\assets\html" />
+      <recent name="C:\Users\VMakarenko\Documents\Work\Interview\ExpensesTracking\et-ejb\src\main\resources\META-INF" />
     </key>
     <key name="CreateClassDialog.RecentsKey">
       <recent name="ru.vmakarenko.filter" />
@@ -1640,21 +1795,46 @@
       <workItem from="1422915569916" duration="30009000" />
       <workItem from="1423247475667" duration="3657000" />
       <workItem from="1423252059029" duration="7417000" />
-      <workItem from="1423260912064" duration="20525000" />
+      <workItem from="1423260912064" duration="40947000" />
+      <workItem from="1423409903197" duration="7077000" />
     </task>
     <task id="LOCAL-00001" summary="added some ui libs + basic ui structure">
       <created>1423302190286</created>
       <updated>1423302190286</updated>
     </task>
-    <option name="localTasksCounter" value="2" />
+    <task id="LOCAL-00002" summary="some ui created">
+      <created>1423337498686</created>
+      <updated>1423337498686</updated>
+    </task>
+    <option name="localTasksCounter" value="3" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="61608000" />
+    <option name="totallyTimeSpent" value="89107000" />
+  </component>
+  <component name="TodoView" selected-index="0">
+    <todo-panel id="selected-file">
+      <are-packages-shown value="false" />
+      <are-modules-shown value="false" />
+      <flatten-packages value="false" />
+      <is-autoscroll-to-source value="true" />
+    </todo-panel>
+    <todo-panel id="all">
+      <are-packages-shown value="true" />
+      <are-modules-shown value="false" />
+      <flatten-packages value="false" />
+      <is-autoscroll-to-source value="true" />
+    </todo-panel>
+    <todo-panel id="default-changelist">
+      <are-packages-shown value="false" />
+      <are-modules-shown value="false" />
+      <flatten-packages value="false" />
+      <is-autoscroll-to-source value="false" />
+    </todo-panel>
   </component>
   <component name="ToolWindowManager">
     <frame x="1358" y="-8" width="1936" height="1216" extended-state="6" />
-    <editor active="false" />
+    <editor active="true" />
     <layout>
       <window_info id="Palette&#9;" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Changes" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.3299539" sideWeight="0.5" order="14" side_tool="false" content_ui="tabs" />
@@ -1671,19 +1851,18 @@
       <window_info id="JSF" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="10" side_tool="false" content_ui="tabs" />
       <window_info id="CDI" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
-      <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
+      <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.3299539" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Application Servers" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="11" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="true" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.21884984" sideWeight="0.49923196" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.15388711" sideWeight="0.49923196" order="0" side_tool="false" content_ui="combo" />
       <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32903227" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Designer" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="9" side_tool="false" content_ui="tabs" />
       <window_info id="Palette" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Bean Validation" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="12" side_tool="false" content_ui="tabs" />
-      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.3299539" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
-      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.4" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.3705069" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="4" side_tool="true" content_ui="tabs" />
       <window_info id="JRebel" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="5" side_tool="true" content_ui="tabs" />
-      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.3299539" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
+      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.3299539" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Web" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.21884984" sideWeight="0.50076807" order="6" side_tool="true" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="EJB" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="true" content_ui="tabs" />
@@ -1692,6 +1871,7 @@
       <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="10" side_tool="false" content_ui="combo" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="15" side_tool="false" content_ui="tabs" />
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="13" side_tool="false" content_ui="tabs" />
+      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.3299539" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="16" side_tool="false" content_ui="tabs" />
     </layout>
   </component>
@@ -1708,58 +1888,22 @@
       <TodoPanelSettings />
     </option>
     <MESSAGE value="added some ui libs + basic ui structure" />
-    <option name="LAST_COMMIT_MESSAGE" value="added some ui libs + basic ui structure" />
+    <MESSAGE value="some ui created" />
+    <option name="LAST_COMMIT_MESSAGE" value="some ui created" />
   </component>
   <component name="XDebuggerManager">
-    <breakpoint-manager />
+    <breakpoint-manager>
+      <breakpoints-dialog>
+        <breakpoints-dialog />
+      </breakpoints-dialog>
+      <option name="time" value="1" />
+    </breakpoint-manager>
   </component>
   <component name="antWorkspaceConfiguration">
     <option name="IS_AUTOSCROLL_TO_SOURCE" value="false" />
     <option name="FILTER_TARGETS" value="false" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/et-common/pom.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="8" column="26" selection-start="404" selection-end="404" vertical-scroll-proportion="0.0" vertical-offset="136" max-vertical-offset="442">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/et-ejb/src/main/java/ru/vmakarenko/services/impl/ExpensesServiceImpl.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="16" column="3" selection-start="484" selection-end="484" vertical-scroll-proportion="0.0" vertical-offset="272" max-vertical-offset="986">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/et-web/src/main/java/ru/vmakarenko/rest/ExpensesResource.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="21" column="0" selection-start="448" selection-end="493" vertical-scroll-proportion="0.0" vertical-offset="357" max-vertical-offset="884">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/et-web/src/main/webapp/WEB-INF/web.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="18" column="0" selection-start="708" selection-end="708" vertical-scroll-proportion="0.0" vertical-offset="306" max-vertical-offset="680">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/et-web/pom.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="31" column="50" selection-start="1134" selection-end="1134" vertical-scroll-proportion="0.0" vertical-offset="4" max-vertical-offset="1258">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/et-ear/pom.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="22" column="18" selection-start="812" selection-end="812" vertical-scroll-proportion="0.0" vertical-offset="17" max-vertical-offset="1173">
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/pom.xml">
       <provider selected="true" editor-type-id="text-editor">
         <state line="16" column="31" selection-start="589" selection-end="589" vertical-scroll-proportion="0.0" vertical-offset="272" max-vertical-offset="884">
@@ -1795,39 +1939,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/et-ejb/src/main/java/ru/vmakarenko/services/AuthService.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="0" column="8" selection-start="8" selection-end="8" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="221">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/et-ejb/src/main/java/ru/vmakarenko/services/UserService.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="2" column="7" selection-start="40" selection-end="40" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="272">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/et-ear/pom.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="22" column="18" selection-start="812" selection-end="812" vertical-scroll-proportion="0.0" vertical-offset="17" max-vertical-offset="1173">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/et-web/src/main/java/ru/vmakarenko/rest/AuthResource.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="18" column="7" selection-start="433" selection-end="433" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="442">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/et-ear/META-INF/MANIFEST.MF">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="701" />
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/et-common/pom.xml">
       <provider selected="true" editor-type-id="text-editor">
         <state line="8" column="26" selection-start="404" selection-end="404" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="442">
@@ -1856,55 +1967,21 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/et-ejb/src/main/java/ru/vmakarenko/filter/ExpensesFilter.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="9" column="13" selection-start="149" selection-end="149" vertical-scroll-proportion="0.16951567" vertical-offset="0" max-vertical-offset="935">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/et-ejb/src/main/resources/META-INF/persistence.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="10" column="14" selection-start="552" selection-end="552" vertical-scroll-proportion="0.272" vertical-offset="0" max-vertical-offset="625">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/et-ejb/src/main/java/ru/vmakarenko/services/impl/AuthServiceImpl.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="12" column="0" selection-start="207" selection-end="250" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="391">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/et-ejb/src/main/java/ru/vmakarenko/services/impl/UserServiceImpl.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="17" column="18" selection-start="426" selection-end="426" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="442">
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/et-web/src/main/webapp/WEB-INF/beans.xml">
       <provider selected="true" editor-type-id="text-editor">
         <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="625">
-          <folding>
-            <marker date="1423254254468" expanded="true" signature="-1:-1" placeholder="..." />
-          </folding>
+          <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/et-ejb/et-ejb.iml">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="1020">
-          <folding />
-        </state>
+        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="1020" />
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/et-ear/et-ear.iml">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="867">
-          <folding />
-        </state>
+        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="867" />
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/et-web/pom.xml">
@@ -1914,64 +1991,14 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/et-ejb/pom.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="55" column="37" selection-start="1757" selection-end="1757" vertical-scroll-proportion="0.0" vertical-offset="480" max-vertical-offset="1122">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/et-ejb/src/main/java/ru/vmakarenko/entities/DefaultEntity.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="10" column="76" selection-start="237" selection-end="237" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="561">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/et-ejb/src/main/java/ru/vmakarenko/entities/Expense.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="14" column="22" selection-start="314" selection-end="335" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="901">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/et-ejb/src/main/java/ru/vmakarenko/entities/User.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="13" column="20" selection-start="268" selection-end="268" vertical-scroll-proportion="0.0" vertical-offset="34" max-vertical-offset="816">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/et-ejb/src/main/java/ru/vmakarenko/services/ExpensesService.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="14" column="18" selection-start="270" selection-end="270" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="391">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/et-web/src/main/webapp/WEB-INF/web.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="29" column="21" selection-start="1209" selection-end="1209" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="748">
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/et-web/src/main/webapp/assets/js/controllers/auth-controller.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="6" column="0" selection-start="0" selection-end="136" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="187">
-          <folding>
-            <element signature="e#0#43#0" expanded="false" />
-          </folding>
-        </state>
+        <state line="6" column="0" selection-start="0" selection-end="136" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="187" />
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/et-web/src/main/webapp/assets/js/controllers/reg-controller.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="5" column="38" selection-start="106" selection-end="106" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="187">
-          <folding>
-            <element signature="e#0#43#0" expanded="false" />
-          </folding>
-        </state>
+        <state line="5" column="38" selection-start="106" selection-end="106" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="187" />
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/et-web/src/main/webapp/assets/html/auth-form.html">
@@ -1988,101 +2015,274 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/et-web/src/main/java/ru/vmakarenko/rest/ExpensesResource.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="36" column="0" selection-start="916" selection-end="916" vertical-scroll-proportion="0.3472" vertical-offset="208" max-vertical-offset="833">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/et-ejb/src/main/java/ru/vmakarenko/services/impl/ExpensesServiceImpl.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="24" column="6" selection-start="703" selection-end="703" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="969">
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/et-web/src/main/webapp/assets/css/lib/bootstrap/bootstrap-theme.css">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="9" column="9" selection-start="219" selection-end="221" vertical-scroll-proportion="-6.12" vertical-offset="0" max-vertical-offset="8194">
+        <state line="9" column="9" selection-start="219" selection-end="221" vertical-scroll-proportion="-6.12" vertical-offset="0" max-vertical-offset="8194" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/et-ear/pom.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="54" column="36" selection-start="2114" selection-end="2114" vertical-scroll-proportion="0.0" vertical-offset="476" max-vertical-offset="1173">
           <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/et-ear/META-INF/MANIFEST.MF">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="3" column="0" selection-start="53" selection-end="53" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="153" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/et-web/src/main/webapp/assets/js/directive/expense-unit.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="25" column="56" selection-start="673" selection-end="741" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="561" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/et-ejb/src/main/resources/META-INF/beans.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="625">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/et-ejb/src/main/resources/META-INF/persistence.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="7" column="92" selection-start="493" selection-end="493" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="272">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/et-ejb/src/main/java/ru/vmakarenko/entities/DefaultEntity.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="10" column="76" selection-start="237" selection-end="237" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="561">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/et-ejb/src/main/java/ru/vmakarenko/services/ExpensesService.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="20" column="24" selection-start="396" selection-end="396" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="425">
+          <folding>
+            <element signature="imports" expanded="false" />
+          </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/et-web/src/main/webapp/assets/css/lib/bootstrap/bootstrap.css">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="1307" column="0" selection-start="21506" selection-end="21506" vertical-scroll-proportion="-7.8" vertical-offset="22024" max-vertical-offset="111724">
+        <state line="6328" column="1" selection-start="137129" selection-end="137129" vertical-scroll-proportion="0.8611111" vertical-offset="107049" max-vertical-offset="111724">
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/et-web/src/main/webapp/assets/css/styles.css">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="14" column="28" selection-start="256" selection-end="256" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="374">
-          <folding />
-        </state>
+        <state line="18" column="33" selection-start="335" selection-end="335" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="442" />
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/et-web/src/main/webapp/assets/js/app.js">
+    <entry file="file://$PROJECT_DIR$/et-web/src/main/webapp/assets/js/services/expenses-service.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="18" column="40" selection-start="595" selection-end="595" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="476">
-          <folding>
-            <element signature="e#0#43#0" expanded="false" />
-          </folding>
-        </state>
+        <state line="22" column="39" selection-start="543" selection-end="543" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="612" />
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/et-web/src/main/webapp/index.jsp">
+    <entry file="file://$PROJECT_DIR$/et-ejb/src/main/java/ru/vmakarenko/common/AppConsts.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="26" column="7" selection-start="1069" selection-end="1069" vertical-scroll-proportion="-15.538462" vertical-offset="38" max-vertical-offset="697">
+        <state line="6" column="52" selection-start="152" selection-end="152" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="255">
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/et-web/src/main/webapp/assets/html/directives/expense-unit.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="15" column="68" selection-start="443" selection-end="443" vertical-scroll-proportion="-9.807693" vertical-offset="0" max-vertical-offset="476">
-          <folding>
-            <element signature="n#style#0;n#div#0;n#!!top" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/et-web/src/main/webapp/assets/html/new-expense.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="4" column="72" selection-start="227" selection-end="227" vertical-scroll-proportion="-2.6153846" vertical-offset="0" max-vertical-offset="969">
+        <state line="0" column="24" selection-start="24" selection-end="24" vertical-scroll-proportion="-0.0" vertical-offset="0" max-vertical-offset="493">
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/et-web/src/main/webapp/assets/js/directive/expense-unit.js">
+    <entry file="file://$PROJECT_DIR$/et-ejb/src/main/java/ru/vmakarenko/entities/ExpensesFilter.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="16" column="7" selection-start="401" selection-end="401" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="561">
+        <state line="9" column="13" selection-start="149" selection-end="149" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="867">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/et-web/src/main/webapp/assets/html/print-list.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="66" column="17" selection-start="1498" selection-end="1498" vertical-scroll-proportion="0.0" vertical-offset="1122" max-vertical-offset="1258">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/et-ejb/src/main/java/ru/vmakarenko/services/impl/ExpensesServiceImpl.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="45" column="11" selection-start="1258" selection-end="1258" vertical-scroll-proportion="0.33238232" vertical-offset="192" max-vertical-offset="1904">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/et-web/src/main/webapp/index.jsp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="22" column="67" selection-start="1013" selection-end="1013" vertical-scroll-proportion="0.0" vertical-offset="374" max-vertical-offset="765">
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/et-web/src/main/webapp/assets/js/controllers/expenses-list-controller.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="20" column="13" selection-start="445" selection-end="445" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="748">
+        <state line="29" column="45" selection-start="829" selection-end="829" vertical-scroll-proportion="0.0" vertical-offset="216" max-vertical-offset="1275">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/et-web/src/main/webapp/assets/html/expenses-list.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="56" column="37" selection-start="2388" selection-end="2388" vertical-scroll-proportion="-7.0384617" vertical-offset="769" max-vertical-offset="2210">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/et-web/src/main/webapp/assets/html/new-expense.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="84" column="75" selection-start="4428" selection-end="4428" vertical-scroll-proportion="-31.307692" vertical-offset="614" max-vertical-offset="1649">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/et-web/src/main/webapp/assets/html/print-expense.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="27" column="99" selection-start="1234" selection-end="1255" vertical-scroll-proportion="-17.653847" vertical-offset="0" max-vertical-offset="646">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/et-ejb/src/main/java/ru/vmakarenko/entities/User.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="18" column="12" selection-start="433" selection-end="433" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="833">
+          <folding>
+            <element signature="e#1114#1115#0" expanded="true" />
+            <element signature="e#1146#1147#0" expanded="true" />
+            <element signature="e#1196#1197#0" expanded="true" />
+            <element signature="e#1238#1239#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/et-ejb/src/main/java/ru/vmakarenko/services/UserService.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="8" column="0" selection-start="145" selection-end="145" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="306">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/et-ejb/src/main/java/ru/vmakarenko/entities/Expense.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="20" column="20" selection-start="513" selection-end="513" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="1564">
+          <folding>
+            <element signature="imports" expanded="false" />
+            <element signature="e#1106#1107#0" expanded="false" />
+            <element signature="e#1137#1138#0" expanded="false" />
+            <element signature="e#1183#1184#0" expanded="false" />
+            <element signature="e#1223#1224#0" expanded="false" />
+            <element signature="e#1261#1262#0" expanded="false" />
+            <element signature="e#1295#1296#0" expanded="false" />
+            <element signature="e#1349#1350#0" expanded="false" />
+            <element signature="e#1395#1396#0" expanded="false" />
+            <element signature="e#1429#1430#0" expanded="false" />
+            <element signature="e#1459#1460#0" expanded="false" />
+            <element signature="e#1505#1506#0" expanded="false" />
+            <element signature="e#1543#1544#0" expanded="false" />
+            <element signature="e#1573#1574#0" expanded="false" />
+            <element signature="e#1602#1603#0" expanded="false" />
+            <element signature="e#1643#1644#0" expanded="false" />
+            <element signature="e#1679#1680#0" expanded="false" />
+            <element signature="e#1708#1709#0" expanded="false" />
+            <element signature="e#1735#1736#0" expanded="false" />
+            <element signature="e#1773#1774#0" expanded="false" />
+            <element signature="e#1805#1806#0" expanded="false" />
+            <element signature="e#1836#1837#0" expanded="false" />
+            <element signature="e#1863#1864#0" expanded="false" />
+            <element signature="e#1903#1904#0" expanded="false" />
+            <element signature="e#1935#1936#0" expanded="false" />
+            <element signature="e#1966#1967#0" expanded="false" />
+            <element signature="e#1993#1994#0" expanded="false" />
+            <element signature="e#2033#2034#0" expanded="false" />
+            <element signature="e#2065#2066#0" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/et-ejb/src/main/java/ru/vmakarenko/services/impl/UserServiceImpl.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="23" column="23" selection-start="652" selection-end="652" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="578">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/et-web/src/main/java/ru/vmakarenko/rest/AuthResource.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="26" column="41" selection-start="666" selection-end="666" vertical-scroll-proportion="0.30500472" vertical-offset="0" max-vertical-offset="1059">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/et-web/src/main/webapp/WEB-INF/web.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="21" column="91" selection-start="863" selection-end="863" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="1139">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/et-web/src/main/webapp/assets/js/app.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="35" column="69" selection-start="1243" selection-end="1245" vertical-scroll-proportion="0.0" vertical-offset="176" max-vertical-offset="952">
           <folding>
             <element signature="e#0#43#0" expanded="false" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/et-web/src/main/webapp/assets/html/expenses-list.html">
+    <entry file="file://$PROJECT_DIR$/et-ejb/pom.xml">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="7" column="10" selection-start="346" selection-end="346" vertical-scroll-proportion="-4.576923" vertical-offset="0" max-vertical-offset="629">
+        <state line="61" column="21" selection-start="1945" selection-end="1945" vertical-scroll-proportion="0.0" vertical-offset="497" max-vertical-offset="1207">
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/et-web/src/main/webapp/assets/js/services/expenses-service.js">
+    <entry file="file://$PROJECT_DIR$/et-ejb/src/main/java/ru/vmakarenko/services/AuthService.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="24" column="0" selection-start="551" selection-end="551" vertical-scroll-proportion="0.5984" vertical-offset="0" max-vertical-offset="625">
+        <state line="6" column="4" selection-start="112" selection-end="112" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="238">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/et-ejb/src/main/java/ru/vmakarenko/services/impl/AuthServiceImpl.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="17" column="8" selection-start="327" selection-end="327" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="391">
           <folding>
-            <element signature="e#0#43#0" expanded="false" />
+            <element signature="imports" expanded="false" />
+            <marker date="1423427593027" expanded="true" signature="384:413" placeholder="{...}" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/et-web/src/main/java/ru/vmakarenko/rest/ExpensesResource.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="2" column="0" selection-start="29" selection-end="29" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="1122">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/et-web/src/main/webapp/assets/js/controllers/print-controller.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="19" column="42" selection-start="721" selection-end="721" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="527">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/et-web/src/main/java/ru/vmakarenko/filters/AuthSecurityFilter.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="34" column="12" selection-start="981" selection-end="981" vertical-scroll-proportion="0.33238232" vertical-offset="345" max-vertical-offset="1139">
+          <folding>
+            <element signature="imports" expanded="true" />
           </folding>
         </state>
       </provider>
@@ -2093,7 +2293,7 @@
       <state key="ArtifactsStructureConfigurable.UI">
         <settings>
           <artifact-editor />
-          <last-edited>et-ear:ear exploded</last-edited>
+          <last-edited>et-ejb:ejb</last-edited>
           <splitter-proportions>
             <option name="proportions">
               <list>
@@ -2142,11 +2342,12 @@
       </state>
       <state key="ModuleStructureConfigurable.UI">
         <settings>
-          <last-edited>et-web</last-edited>
+          <last-edited>et-ejb</last-edited>
           <splitter-proportions>
             <option name="proportions">
               <list>
                 <option value="0.2" />
+                <option value="0.6" />
               </list>
             </option>
           </splitter-proportions>

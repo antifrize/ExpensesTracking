@@ -1,0 +1,33 @@
+<div id="print-expense-modal" class="modal fade">
+    <div class="modal-dialog">
+        <div class="modal-content">
+            <div class="modal-header">
+                <h1>Print expenses</h1>
+            </div>
+            <div class="modal-body">
+                <form class="form">
+                    <h3>Please, select dates range to print</h3>
+                    <div class="form-group">
+                        <label for="expense-date-from">
+                            Date from:
+                        </label>
+                        <input id="expense-date-from" class="form-control" placeholder="YYYY-MM-DD"
+                               ng-model="printParams.dateFrom">
+                    </div>
+                    <div class="form-group">
+                        <label for="expense-date-to">
+                            Date to:
+                        </label>
+                        <input id="expense-date-to" class="form-control" placeholder="YYYY-MM-DD"
+                               ng-model="printParams.dateTo">
+                    </div>
+
+                </form>
+            </div>
+            <div class="modal-footer">
+                <button type="button" class="btn" ng-click="openPageToPrint()" data-dismiss="modal">Print</button>
+                <button type="button" class="btn" data-dismiss="modal">Cancel</button>
+            </div>
+        </div>
+    </div>
+</div>

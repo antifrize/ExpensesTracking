@@ -3,7 +3,7 @@
  */
 
 angular.module("app").
-    controller("ExpensesListController", function($scope, ExpensesService){
+    controller("ExpensesListController", function ($scope, $location, ExpensesService) {
 
         // initialization
         $scope.filter = {};
@@ -11,29 +11,60 @@ angular.module("app").
         $scope.currentExpense = {};
 
 
-
-        // functions
-        $scope.addEditExpense = function(id){
-            if(id === undefined){
-                $scope.currentExpense = {}
-            }else{
-
+        // expense CRUD
+        $scope.addEditExpense = function (id) {
+            if (id === undefined) {
+                $scope.currentExpense = {};
+            } else {
+                $scope.currentExpense = _.find($scope.expenses, {id: id});
             }
-
             $("#edit-expense-modal").modal();
         };
 
-        $scope.deleteExpense =function(){
-            var i = 0;
-            return i;
-        };
-
-        $scope.updateExpenses = function(){
-            ExpensesService.getList($scope.filter).success(function(result){
-               $scope.expenses = result;
+        $scope.deleteExpense = function (id) {
+            ExpensesService.deleteExpense(id).success(function () {
+                $scope.updateExpenses();
             });
         };
 
+        $scope.updateExpenses = function () {
+            ExpensesService.getList($scope.filter).success(function (result) {
+                $scope.expenses = result;
+            });
+        };
+
+        $scope.saveExpense = function () {
+            var service = $scope.currentExpense.id === undefined
+                ? ExpensesService.createExpense : ExpensesService.updateExpense;
+            service($scope.currentExpense).success(function () {
+                $scope.updateExpenses();
+                $scope.currentExpense = {};
+                this.newExpenseForm.$setPristine;
+            });
+        };
+
+        // filtering
+
+        $scope.doFilter = function(){
+            $scope.updateExpenses();
+        };
+
+        $scope.clearFilter = function(){
+            $scope.filter={};
+            $scope.filterForm.$setPristine;
+            $scope.updateExpenses();
+        };
+
+        //printing
+
+        $scope.openPrintDialog = function(){
+            $scope.printParams = {};
+            $("#print-expense-modal").modal();
+        };
+
+        $scope.openPageToPrint = function(){
+            $location.path("print/"+ $scope.printParams.dateFrom + "/" + $scope.printParams.dateTo )
+        };
 
         // refresh expenses for the 1st time
         $scope.updateExpenses();

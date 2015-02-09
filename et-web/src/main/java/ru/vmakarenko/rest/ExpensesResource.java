@@ -1,8 +1,7 @@
 package ru.vmakarenko.rest;
 
-import com.sun.istack.internal.NotNull;
 import ru.vmakarenko.entities.Expense;
-import ru.vmakarenko.filter.ExpensesFilter;
+import ru.vmakarenko.entities.ExpensesFilter;
 import ru.vmakarenko.services.ExpensesService;
 
 import javax.enterprise.context.ApplicationScoped;
@@ -10,7 +9,6 @@ import javax.inject.Inject;
 import javax.ws.rs.*;
 import javax.ws.rs.core.MediaType;
 import javax.ws.rs.core.Response;
-import javax.ws.rs.core.SecurityContext;
 import java.util.List;
 
 /**
@@ -48,6 +46,14 @@ public class ExpensesResource {
     @Consumes(MediaType.APPLICATION_JSON)
     public Response createExpense(Expense expense){
         expensesService.create(expense);
+        return Response.ok().build();
+    }
+
+
+    @DELETE
+    @Path("/{id}")
+    public Response deleteExpense(@PathParam(value = "id") Long id){
+        expensesService.delete(id);
         return Response.ok().build();
     }
 
