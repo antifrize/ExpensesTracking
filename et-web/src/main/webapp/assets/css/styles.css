@@ -18,3 +18,14 @@
     background-color: beige;
     padding: 10px 10px 10px 10px;
 }
+
+.widget-block{
+    padding: 10px 20px 10px 20px;
+    margin: 10px 10px 10px 10px;
+    background-color: #c2c5ff;
+    border-radius: 8px;
+}
+
+.full-width-group{
+    width: 100%;
+}

@@ -11,22 +11,25 @@ angular.module('app', [
                     templateUrl: 'assets/html/expenses-list.html',
                     controller: 'ExpensesListController'
                 }).
-                when('/auth', {
-                    templateUrl: 'assets/html/auth-form.html',
-                    controller: 'AuthorisationController'
-                }).
-                when('/reg', {
-                    templateUrl: 'assets/html/reg-form.html',
-                    controller: 'RegistrationController'
+                when('/auth11', {
+                    templateUrl: 'assets/html/test-page.html',
+                    controller: 'AuthTestController'
                 }).
                 when('/print/:dateFrom/:dateTo', {
                     templateUrl: 'assets/html/print-list.html',
                     controller: 'PrintController'
                 }).
+                when('/main', {
+                    templateUrl: 'assets/html/landing.html',
+                    controller: 'LandingController'
+                }).
+
                 otherwise({
                     redirectTo: '/list'
                 });
-        }]).factory('authFactory', ['$rootScope', '$http', function ($rootScope, $http) {
+        }]);
+
+    /*.factory('authFactory', ['$rootScope', '$http', function ($rootScope, $http) {
 
         var authFactory = {
             authData: undefined
@@ -45,9 +48,9 @@ angular.module('app', [
                 // Redirect etc.
             }).error(function () {
                     // Error handling
-                });
-        };
-    }])
+                });*/
+    //    };
+    //}])
 
 
-;
+//;

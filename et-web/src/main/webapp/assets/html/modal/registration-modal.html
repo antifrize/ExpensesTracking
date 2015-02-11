@@ -1,0 +1,66 @@
+<div id="registration-modal" class="modal fade" ng-controller="RegistrationController">
+    <div class="modal-dialog">
+        <div class="modal-content">
+            <div class="modal-header">
+                Registration
+            </div>
+            <div class="modal-body">
+                <form name="registrationForm" class="form">
+                    <div class="form-group">
+                        <div class="row">
+                            <div class="col-xs-5">
+                                <label>Login: </label>
+                            </div>
+                            <div class="col-xs-7">
+                                <input type="text" class="form-control" ng-model="newUser.login"  ng-change="checkLogin()">
+                                <small class="text-danger" ng-show="loginError">
+                                    {{loginError}}
+                                </small>
+                            </div>
+
+
+                        </div>
+                    </div>
+                    <div class="form-group">
+                        <div class="row">
+                            <div class="col-xs-5">
+                                <label>Password: </label>
+                            </div>
+                            <div class="col-xs-7">
+                                <input type="text" class="form-control" ng-model="newUser.password">
+                            </div>
+                        </div>
+                    </div>
+                    <div class="form-group">
+                        <div class="row">
+                            <div class="col-xs-5">
+                                <label>Password again: </label>
+                            </div>
+                            <div class="col-xs-7">
+                                <input type="text" class="form-control" ng-model="newUser.password2">
+                            </div>
+                        </div>
+                    </div>
+                    <div class="form-group">
+                        <div class="row">
+                            <div class="col-xs-5">
+                                <label>E-mail: </label>
+                            </div>
+                            <div class="col-xs-7">
+                                <input type="text" class="form-control" ng-model="newUser.eMail">
+                            </div>
+                        </div>
+                    </div>
+                </form>
+            </div>
+            <div class="modal-footer">
+                <div class="btn-group">
+                    <button class="btn btn-success" ng-click="register()">Register</button>
+                    <button class="btn btn-success" data-dismiss="modal">Cancel</button>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+
+

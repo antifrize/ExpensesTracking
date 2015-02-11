@@ -3,7 +3,7 @@
  */
 
 angular.module("app").
-    controller("ExpensesListController", function ($scope, $location, ExpensesService) {
+    controller("ExpensesListController", function ($scope, $location, ExpensesService, AuthService) {
 
         // initialization
         $scope.filter = {};
@@ -39,7 +39,7 @@ angular.module("app").
             service($scope.currentExpense).success(function () {
                 $scope.updateExpenses();
                 $scope.currentExpense = {};
-                this.newExpenseForm.$setPristine;
+                this.newExpenseForm.$setPristine();
             });
         };
 
@@ -51,7 +51,7 @@ angular.module("app").
 
         $scope.clearFilter = function(){
             $scope.filter={};
-            $scope.filterForm.$setPristine;
+            $scope.filterForm.$setPristine();
             $scope.updateExpenses();
         };
 
@@ -66,7 +66,16 @@ angular.module("app").
             $location.path("print/"+ $scope.printParams.dateFrom + "/" + $scope.printParams.dateTo )
         };
 
+        $scope.logout =function(){
+            AuthService.logout().success
+        };
+
         // refresh expenses for the 1st time
         $scope.updateExpenses();
+        // also, get usr
+        AuthService.getCurrentUser().success(function(result){
+            $scope.user = result;
+        });
+
 
     });

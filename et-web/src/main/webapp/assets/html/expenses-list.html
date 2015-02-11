@@ -1,74 +1,82 @@
 <div class="">
     <div class="row">
         <div class="col-xs-3">
-            <form class="form filter-form" name="filterForm">
+            <div class="widget-block">
+                <form class="form " name="filterForm">
 
-                <h3>Filter</h3>
+                    <h3>Filter</h3>
 
-                <div class="form-group">
-                    <div class="row">
-                        <div class="col-xs-5">
-                            <label>Description</label>
-                        </div>
-                        <div class="col-xs-7">
+                    <div class="form-group">
+                        <div class="row">
+                            <div class="col-xs-5">
+                                <label>Description</label>
+                            </div>
+                            <div class="col-xs-7">
 
-                            <input type="text" class="form-control" ng-model="filter.description"></div>
-                    </div>
-                </div>
-                <div class="form-group">
-                    <div class="row">
-                        <div class="col-xs-5">
-                            <label>Comment</label></div>
-                        <div class="col-xs-7">
-                            <input type="text" class="form-control" ng-model="filter.comment"></div>
-                    </div>
-                </div>
-                <div class="form-group">
-                    <div class="row">
-                        <div class="col-xs-5">
-                            <label>Date from</label>
-                        </div>
-                        <div class="col-xs-7">
-                            <input type="text" class="form-control" ng-model="filter.dateFrom" placeholder="YYYY-MM-DD">
+                                <input type="text" class="form-control" ng-model="filter.description"></div>
                         </div>
                     </div>
-                </div>
-                <div class="form-group">
-                    <div class="row">
-                        <div class="col-xs-5">
-                            <label>Date to</label>
-                        </div>
-                        <div class="col-xs-7">
-                            <input type="text" class="form-control" ng-model="filter.dateTo" placeholder="YYYY-MM-DD">
+                    <div class="form-group">
+                        <div class="row">
+                            <div class="col-xs-5">
+                                <label>Comment</label></div>
+                            <div class="col-xs-7">
+                                <input type="text" class="form-control" ng-model="filter.comment"></div>
                         </div>
                     </div>
-                </div>
-                <div class="form-group">
-                    <div class="row">
-                        <div class="col-xs-5">
-                            <label>Min amount</label>
-                        </div>
-                        <div class="col-xs-7">
-                            <input type="text" class="form-control" ng-model="filter.amountMin">
-                        </div>
-                    </div>
-                </div>
-                <div class="form-group">
-                    <div class="row">
-                        <div class="col-xs-5">
-                            <label>Max amount</label>
-                        </div>
-                        <div class="col-xs-7">
-                            <input type="text" class="form-control" ng-model="filter.amountMax">
+                    <div class="form-group">
+                        <div class="row">
+                            <div class="col-xs-5">
+                                <label>Date from</label>
+                            </div>
+                            <div class="col-xs-7">
+                                <input type="text" class="form-control" ng-model="filter.dateFrom"
+                                       placeholder="YYYY-MM-DD">
+                            </div>
                         </div>
                     </div>
-                </div>
-                <div class="form-group btn-group">
-                    <button class="btn btn-success" ng-click="doFilter()">OK</button>
-                    <button class="btn btn-warning" ng-click="clearFilter()">Clear</button>
-                </div>
+                    <div class="form-group">
+                        <div class="row">
+                            <div class="col-xs-5">
+                                <label>Date to</label>
+                            </div>
+                            <div class="col-xs-7">
+                                <input type="text" class="form-control" ng-model="filter.dateTo"
+                                       placeholder="YYYY-MM-DD">
+                            </div>
+                        </div>
+                    </div>
+                    <div class="form-group">
+                        <div class="row">
+                            <div class="col-xs-5">
+                                <label>Min amount</label>
+                            </div>
+                            <div class="col-xs-7">
+                                <input type="text" class="form-control" ng-model="filter.amountMin">
+                            </div>
+                        </div>
+                    </div>
+                    <div class="form-group">
+                        <div class="row">
+                            <div class="col-xs-5">
+                                <label>Max amount</label>
+                            </div>
+                            <div class="col-xs-7">
+                                <input type="text" class="form-control" ng-model="filter.amountMax">
+                            </div>
+                        </div>
+                    </div>
+                    <div class="form-group btn-group">
+                        <button class="btn btn-success" ng-click="doFilter()">OK</button>
+                        <button class="btn btn-warning" ng-click="clearFilter()">Clear</button>
+                    </div>
 
-            </form>
+                </form>
+            </div>
+            <div class="widget-block">
+                <div style="">Logged as: <b>{{user.username}}</b></div>
+                <button type="button" class="btn btn-warning" ng-click="logout()">Logout</button>
+            </div>
         </div>
         <div class="col-xs-6">
             <div class="row">
@@ -76,9 +84,9 @@
                     <span class="h1">ExpensesList</span></div>
                 <div class="col-xs-8">
                     <div class="pull-right btn-group">
-                    <button type="button" class="btn  btn-success" ng-click="addEditExpense()"><span
-                            class="glyphicon glyphicon-plus"></span>
-                    </button>
+                        <button type="button" class="btn  btn-success" ng-click="addEditExpense()"><span
+                                class="glyphicon glyphicon-plus"></span>
+                        </button>
                         <button type="button" class="btn  btn-success" ng-click="openPrintDialog()"><span
                                 class="glyphicon glyphicon-print"></span>
                         </button>

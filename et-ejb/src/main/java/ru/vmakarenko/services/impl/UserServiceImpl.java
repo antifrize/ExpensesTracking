@@ -27,7 +27,7 @@ public class UserServiceImpl implements UserService {
     @Override
     public User getByPrincipal(String user) {
         // TODO shitty stuff
-        List<User> userList = em.createQuery("select u from User u where u.username like '%" + user + "%'", User.class)
+        List<User> userList = em.createQuery("select u from User u where u.username like '" + user + "'", User.class)
 //                .setParameter("username", user)
                 .getResultList();
         return userList.size() > 0 ? userList.get(0) : null;
@@ -37,4 +37,5 @@ public class UserServiceImpl implements UserService {
     public void createUser(User user) {
         em.persist(user);
     }
+
 }

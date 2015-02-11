@@ -9,4 +9,5 @@ public interface UserService {
     public User getByPrincipal(String user);
 
     void createUser(User user);
+
 }
