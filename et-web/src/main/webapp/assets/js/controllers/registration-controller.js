@@ -15,6 +15,12 @@ angular.module("app").
             });
         };
 
+        $scope.register = function () {
+            UserService.createUser($scope.newUser).success(function (result){
+
+            });
+        }
+
 
 
     });

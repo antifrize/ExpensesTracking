@@ -3,11 +3,12 @@
  */
 
 angular.module("app").
-    controller("LoginController", function ($scope, $location, AuthService) {
+    controller("LoginController", function ($scope, $rootScope, $location, AuthService) {
 
         //service calls
         $scope.login = function () {
-            AuthService.login($scope.login, $scope.password).success(function () {
+            AuthService.login($scope.username, $scope.password).success(function () {
+                $rootScope.authentificated = true;
                 $location.path("expenses");
             });
         };

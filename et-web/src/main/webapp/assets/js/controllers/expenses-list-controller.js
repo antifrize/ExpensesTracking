@@ -3,7 +3,7 @@
  */
 
 angular.module("app").
-    controller("ExpensesListController", function ($scope, $location, ExpensesService, AuthService) {
+    controller("ExpensesListController", function ($scope, $rootScope, $location, ExpensesService, AuthService) {
 
         // initialization
         $scope.filter = {};
@@ -67,7 +67,9 @@ angular.module("app").
         };
 
         $scope.logout =function(){
-            AuthService.logout().success
+            $rootScope.authentificated = true;
+            AuthService.logout();
+            $location.path("main");
         };
 
         // refresh expenses for the 1st time

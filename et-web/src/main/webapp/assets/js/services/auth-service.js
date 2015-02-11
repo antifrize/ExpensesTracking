@@ -21,6 +21,7 @@ angular.module("app")
             this.getCurrentUser = function () {
                 return $http.get(url + "/getCurrentUser");
             };
+
         }
     ]);
 

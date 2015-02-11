@@ -3,6 +3,7 @@ package ru.vmakarenko.rest;
 import ru.vmakarenko.common.AppConsts;
 import ru.vmakarenko.entities.Expense;
 import ru.vmakarenko.entities.ExpensesFilter;
+import ru.vmakarenko.entities.User;
 import ru.vmakarenko.services.ExpensesService;
 import ru.vmakarenko.services.UserService;
 
@@ -43,6 +44,14 @@ public class UserResource {
         lcr.setOk(msg == null);
         return Response.ok(lcr).build();
 
+    }
+
+
+    @POST
+    public Response createUser(User user){
+        // TODO validation
+        userService.createUser(user);
+        return Response.ok().build();
     }
 
 

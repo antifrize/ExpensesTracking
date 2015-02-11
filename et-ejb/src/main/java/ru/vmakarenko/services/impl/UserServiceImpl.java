@@ -35,6 +35,7 @@ public class UserServiceImpl implements UserService {
 
     @Override
     public void createUser(User user) {
+        user.setPassword2(null);
         em.persist(user);
     }
 

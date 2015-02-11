@@ -8,7 +8,7 @@ import javax.persistence.*;
 @MappedSuperclass
 public class DefaultEntity {
     @Id
-    @SequenceGenerator(name = "id_seq_gen", sequenceName = "default_id_seq")
+    @SequenceGenerator(name = "id_seq_gen", sequenceName = "default_id_seq", allocationSize = 1)
     @GeneratedValue(strategy = GenerationType.SEQUENCE, generator = "id_seq_gen")
     @Column(name="id")
     private Long id;

@@ -43,7 +43,6 @@ public class ExpensesServiceImpl implements ExpensesService {
         if (filter == null) {
             filter = new ExpensesFilter();
         }
-        filter.setUser(userService.getByPrincipal("user"));
         String query = "select e from Expense e left join e.user u where 1=1 " + getWhereClause(filter);
         return fillParameters(em.createQuery(query, Expense.class), filter).getResultList();
     }
@@ -78,7 +77,7 @@ public class ExpensesServiceImpl implements ExpensesService {
             result.append(" and e.comment like '%").append(filter.getComment()).append("%'");
         }
         if (filter.getUser() != null) {
-            result.append(" and u.username like '%").append(filter.getUser().getUsername()).append("%'");
+            result.append(" and u.username like '").append(filter.getUser().getUsername()).append("'");
         }
         if (filter.getDateFrom() != null) {
             result.append(" and e.dateTime >= :dateFrom");

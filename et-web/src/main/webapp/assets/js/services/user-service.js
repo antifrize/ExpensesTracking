@@ -8,8 +8,13 @@ angular.module("app")
             var url = "api/user";
 
             this.checkLogin = function (login) {
-                return $http.get(url + "/checkLogin?login="+ login );
+                return $http.get(url + "/checkLogin?login=" + login );
             };
+
+            this.createUser = function (user) {
+                return $http.post(url, user );
+            };
+
 
         }
     ]);

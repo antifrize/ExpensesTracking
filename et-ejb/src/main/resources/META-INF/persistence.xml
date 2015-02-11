@@ -6,6 +6,7 @@
         <jta-data-source>java:/expensesDS</jta-data-source>
         <properties>
             <property name="hibernate.dialect" value="org.hibernate.dialect.Oracle10gDialect"/>
+            <property name="hibernate.id.new_generator_mappings" value="false"/>
         </properties>
     </persistence-unit>
 </persistence>

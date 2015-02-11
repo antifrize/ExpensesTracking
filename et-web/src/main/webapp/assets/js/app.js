@@ -9,15 +9,13 @@ angular.module('app', [
             $routeProvider.
                 when('/list', {
                     templateUrl: 'assets/html/expenses-list.html',
-                    controller: 'ExpensesListController'
-                }).
-                when('/auth11', {
-                    templateUrl: 'assets/html/test-page.html',
-                    controller: 'AuthTestController'
+                    controller: 'ExpensesListController',
+                    requiresLogin: true
                 }).
                 when('/print/:dateFrom/:dateTo', {
                     templateUrl: 'assets/html/print-list.html',
-                    controller: 'PrintController'
+                    controller: 'PrintController',
+                    requiresLogin: true
                 }).
                 when('/main', {
                     templateUrl: 'assets/html/landing.html',
@@ -27,7 +25,14 @@ angular.module('app', [
                 otherwise({
                     redirectTo: '/list'
                 });
-        }]);
+        }])
+    .run(function($rootScope, $location, $rootScope){
+        $rootScope.$on('$routeChangeStart', function (event, next, current) {
+            if ($location.url() != 'main' && !$rootScope.authentificated) {
+                $location.path('/main');
+            }
+        });
+    });
 
     /*.factory('authFactory', ['$rootScope', '$http', function ($rootScope, $http) {
 

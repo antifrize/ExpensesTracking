@@ -1,12 +1,16 @@
 package ru.vmakarenko.rest;
 
+import ru.vmakarenko.common.AppConsts;
 import ru.vmakarenko.entities.Expense;
 import ru.vmakarenko.entities.ExpensesFilter;
+import ru.vmakarenko.entities.User;
 import ru.vmakarenko.services.ExpensesService;
 
 import javax.enterprise.context.ApplicationScoped;
 import javax.inject.Inject;
+import javax.servlet.http.HttpServletRequest;
 import javax.ws.rs.*;
+import javax.ws.rs.core.Context;
 import javax.ws.rs.core.MediaType;
 import javax.ws.rs.core.Response;
 import java.util.List;
@@ -31,7 +35,8 @@ public class ExpensesResource {
     @POST
     @Path("/all")
     @Produces(MediaType.APPLICATION_JSON)
-    public List<Expense> getAll(ExpensesFilter filter){
+    public List<Expense> getAll(ExpensesFilter filter, @Context HttpServletRequest request){
+        filter.setUser((User) request.getSession().getAttribute(AppConsts.CURRENT_USER_ATTRIBUTE));
         return expensesService.getAll(filter);
     }
 
