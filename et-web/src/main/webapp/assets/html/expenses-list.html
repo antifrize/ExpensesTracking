@@ -99,7 +99,7 @@
 
                 </thead>
                 <tbody>
-                <tr ng-show="!expenses || expenses.length == 0">
+                <tr ng-show="!expenses || expenses.length == 0" class="widget-block">
                     <td>
                         <h4>
                             No data to show!
@@ -109,7 +109,7 @@
                             </span>
                     </td>
                 </tr>
-                <tr ng-repeat="expense in expenses">
+                <tr ng-repeat="expense in expenses" class="widget-block">
                     <td>
                         <div expense-unit
                              delete-lnr="deleteExpense(id)"

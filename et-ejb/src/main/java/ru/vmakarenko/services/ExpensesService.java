@@ -2,6 +2,7 @@ package ru.vmakarenko.services;
 
 import ru.vmakarenko.entities.Expense;
 import ru.vmakarenko.entities.ExpensesFilter;
+import ru.vmakarenko.entities.User;
 
 import java.util.List;
 
@@ -14,9 +15,9 @@ public interface ExpensesService {
 
     List<Expense> getAll(ExpensesFilter filter);
 
-    void update(Expense expense);
+    Expense update(Expense expense);
 
-    void create(Expense expense);
+    Expense create(Expense expense, User user);
 
     void delete(Long id);
 }

@@ -10,7 +10,7 @@ angular.module("app").
 
 
         $scope.checkLogin = function () {
-            UserService.checkLogin($scope.newUser.login).success(function (result) {
+            UserService.checkLogin($scope.newUser.username).success(function (result) {
                 $scope.loginError = result.ok ? undefined : result.msg;
             });
         };

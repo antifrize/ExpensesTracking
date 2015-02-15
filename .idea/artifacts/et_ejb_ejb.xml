@@ -3,9 +3,6 @@
     <output-path>$PROJECT_DIR$/et-ejb/target</output-path>
     <root id="archive" name="et-ejb-1.0.jar">
       <element id="artifact" artifact-name="et-ejb:ejb exploded" />
-      <element id="directory" name="META-INF">
-        <element id="file-copy" path="$PROJECT_DIR$/et-ejb/META-INF/MANIFEST.MF" />
-      </element>
     </root>
   </artifact>
 </component>

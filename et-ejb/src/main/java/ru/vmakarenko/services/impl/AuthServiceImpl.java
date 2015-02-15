@@ -24,9 +24,11 @@ public class AuthServiceImpl implements AuthService {
     EntityManager em;
 
     @Override
-    public User login(String login, char[] password) {
-        // TODO create normal query
-        List<User> userList = em.createQuery("select u from User u where u.username like '" + login+ "' and u.password like '" + new String(password) + "'", User.class ).getResultList();
+    public User login(String username, String password) {
+        List<User> userList = em.createQuery("select u from User u where u.username like :username and u.password like :password", User.class )
+                .setParameter("username", username)
+                .setParameter("password", password)
+                .getResultList();
         return userList.size() > 0 ? userList.get(0) : null;
     }
 

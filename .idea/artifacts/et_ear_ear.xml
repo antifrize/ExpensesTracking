@@ -3,9 +3,6 @@
     <output-path>$PROJECT_DIR$/et-ear/target</output-path>
     <root id="archive" name="et.ear.ear">
       <element id="artifact" artifact-name="et-ear:ear exploded" />
-      <element id="directory" name="META-INF">
-        <element id="file-copy" path="$PROJECT_DIR$/et-ear/META-INF/MANIFEST.MF" />
-      </element>
     </root>
   </artifact>
 </component>

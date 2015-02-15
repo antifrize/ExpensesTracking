@@ -3,6 +3,8 @@ package ru.vmakarenko.entities;
 import org.codehaus.jackson.annotate.JsonIgnore;
 import org.hibernate.annotations.Proxy;
 import org.hibernate.type.StringClobType;
+import org.slf4j.Logger;
+import org.slf4j.LoggerFactory;
 import ru.vmakarenko.common.AppConsts;
 
 import javax.persistence.*;
@@ -20,6 +22,7 @@ import java.util.Date;
 @Table(name = "EXPENSE")
 @Proxy(lazy = false)
 public class Expense extends DefaultEntity {
+    private static final Logger logger = LoggerFactory.getLogger(Expense.class);
 
     @Temporal(TemporalType.TIMESTAMP)
     @Column(name = "DATE_TIME")
@@ -108,16 +111,19 @@ public class Expense extends DefaultEntity {
     @PreUpdate
     public void prePersist() {
         long timeL = 0L;
-        try {
-            if (date != null) {
-                timeL += new SimpleDateFormat(AppConsts.DATE_FORMAT).parse(date).getTime();
+        if (dateTime == null) {
+            try {
+                if (date != null) {
+                    timeL += new SimpleDateFormat(AppConsts.DATE_FORMAT).parse(date).getTime();
+                }
+                if (time != null) {
+                    timeL += new SimpleDateFormat(AppConsts.TIME_FORMAT).parse(time).getTime();
+                }
+                dateTime = new Date(timeL);
+            } catch (ParseException e) {
+                logger.error("Illegal date/time for expense: " + date + ", " + time);
+                throw new RuntimeException(e);
             }
-            if (time != null) {
-                timeL += new SimpleDateFormat(AppConsts.TIME_FORMAT).parse(time).getTime();
-            }
-            dateTime = new Date(timeL);
-        } catch (ParseException e) {
-            // TODO logging
         }
 
     }

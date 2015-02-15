@@ -3,7 +3,7 @@
  */
 
 angular.module("app").
-    controller("LandingController", function($scope, $location, AuthService){
+    controller("MainPageController", function($scope, $location, AuthService){
 
         //init
         $scope.user = {};
@@ -24,7 +24,7 @@ angular.module("app").
 
         //service calls
         $scope.login = function(){
-            AuthService.login($scope.login, $scope.password).success(function(){
+            AuthService.login($scope.username, $scope.password).success(function(){
                 $location.path("expenses");
             });
         };

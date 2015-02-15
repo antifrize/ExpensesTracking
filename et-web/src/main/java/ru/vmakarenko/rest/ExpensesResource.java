@@ -26,14 +26,14 @@ public class ExpensesResource {
     private ExpensesService expensesService;
 
     @GET
-    @Path("/{id}")
+    @Path("{id}")
     @Produces(MediaType.APPLICATION_JSON)
     public Expense getById(@PathParam(value = "id") Long id){
         return expensesService.getById(id);
     }
 
     @POST
-    @Path("/all")
+    @Path("all")
     @Produces(MediaType.APPLICATION_JSON)
     public List<Expense> getAll(ExpensesFilter filter, @Context HttpServletRequest request){
         filter.setUser((User) request.getSession().getAttribute(AppConsts.CURRENT_USER_ATTRIBUTE));
@@ -42,21 +42,24 @@ public class ExpensesResource {
 
     @PUT
     @Consumes(MediaType.APPLICATION_JSON)
+    @Produces(MediaType.APPLICATION_JSON)
     public Response updateExpense(Expense expense){
-        expensesService.update(expense);
-        return Response.ok().build();
+        return Response.ok(expensesService.update(expense)).build();
     }
 
     @POST
     @Consumes(MediaType.APPLICATION_JSON)
-    public Response createExpense(Expense expense){
-        expensesService.create(expense);
-        return Response.ok().build();
+    @Produces(MediaType.APPLICATION_JSON)
+    public Response createExpense(Expense expense, @Context HttpServletRequest request){
+        return Response.ok(
+                expensesService.create(expense,
+                        (User)request.getSession().getAttribute(AppConsts.CURRENT_USER_ATTRIBUTE)
+        )).build();
     }
 
 
     @DELETE
-    @Path("/{id}")
+    @Path("{id}")
     public Response deleteExpense(@PathParam(value = "id") Long id){
         expensesService.delete(id);
         return Response.ok().build();

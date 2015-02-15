@@ -7,19 +7,22 @@ angular.module("app")
         function ExtInvestigationRequestsService($http) {
             var url = "api/auth";
 
-            // TODO wtf here
-            this.login = function (login, pass) {
-                return $http.post(url + "/login", login + ":" + pass);
+            this.login = function (username, password) {
+                return $http.post(url + "/login",{username: username, password : password});
             };
 
 
-            this.logout = function (login, pass) {
+            this.logout = function () {
                 return $http.post(url + "/logout");
             };
 
 
             this.getCurrentUser = function () {
                 return $http.get(url + "/getCurrentUser");
+            };
+
+            this.isAuthenticated = function () {
+                return $http.get(url + '/isAuthenticated');
             };
 
         }

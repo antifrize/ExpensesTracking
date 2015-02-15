@@ -67,7 +67,7 @@ angular.module("app").
         };
 
         $scope.logout =function(){
-            $rootScope.authentificated = true;
+            $rootScope.authentificated = false;
             AuthService.logout();
             $location.path("main");
         };

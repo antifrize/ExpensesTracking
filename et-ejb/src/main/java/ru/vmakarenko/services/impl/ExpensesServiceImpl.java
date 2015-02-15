@@ -1,8 +1,12 @@
 package ru.vmakarenko.services.impl;
 
+import org.slf4j.Logger;
+import org.slf4j.LoggerFactory;
+import org.springframework.beans.BeanUtils;
 import ru.vmakarenko.common.AppConsts;
 import ru.vmakarenko.entities.Expense;
 import ru.vmakarenko.entities.ExpensesFilter;
+import ru.vmakarenko.entities.User;
 import ru.vmakarenko.services.ExpensesService;
 import ru.vmakarenko.services.UserService;
 
@@ -25,6 +29,7 @@ import java.util.List;
 @Local(ExpensesService.class)
 @Named
 public class ExpensesServiceImpl implements ExpensesService {
+    private static final Logger logger = LoggerFactory.getLogger(ExpensesServiceImpl.class);
     @PersistenceContext
     EntityManager em;
 
@@ -39,7 +44,6 @@ public class ExpensesServiceImpl implements ExpensesService {
 
     @Override
     public List<Expense> getAll(ExpensesFilter filter) {
-        // TODO do some filtration
         if (filter == null) {
             filter = new ExpensesFilter();
         }
@@ -57,7 +61,8 @@ public class ExpensesServiceImpl implements ExpensesService {
                 query.setParameter("dateTo", sdf.parse(filter.getDateTo()));
             }
         } catch (ParseException e) {
-            // TODO logging
+            logger.error("Illegal date from filter!");
+            throw new RuntimeException(e);
         }
         return query;
     }
@@ -89,23 +94,23 @@ public class ExpensesServiceImpl implements ExpensesService {
     }
 
     @Override
-    public void update(Expense expense) {
+    public Expense update(Expense expense) {
         if (expense.getId() != null) {
             Expense managedExpense = em.getReference(Expense.class, expense.getId());
-            // TODO user ??
-            expense.setUser(userService.getByPrincipal("user"));
+            BeanUtils.copyProperties(expense, managedExpense, "user","version");
             // TODO is evrth with version okay?
-            em.merge(expense);
+            expense = em.merge(managedExpense);
         } else {
             throw new InvalidParameterException("Cannot update expense with nulled id!");
         }
-
+        return expense;
     }
 
     @Override
-    public void create(Expense expense) {
-        expense.setUser(userService.getByPrincipal("user"));
+    public Expense create(Expense expense, User user) {
+        expense.setUser(user);
         em.persist(expense);
+        return expense;
     }
 
     @Override

@@ -1,5 +1,6 @@
 package ru.vmakarenko.services;
 
+import ru.vmakarenko.common.LoginPassCheckResult;
 import ru.vmakarenko.entities.User;
 
 /**
@@ -10,4 +11,7 @@ public interface UserService {
 
     void createUser(User user);
 
+    LoginPassCheckResult validateUsername(String username);
+
+    LoginPassCheckResult vaidateUser(User user);
 }

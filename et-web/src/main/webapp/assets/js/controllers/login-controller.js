@@ -7,15 +7,15 @@ angular.module("app").
 
         //service calls
         $scope.login = function () {
-            AuthService.login($scope.username, $scope.password).success(function () {
-                $rootScope.authentificated = true;
-                $location.path("expenses");
+            AuthService.login($scope.username, $scope.password).success(function (result) {
+                if (result.status == 'OK') {
+                    $rootScope.authenticated = true;
+                    $location.path("expenses");
+                }else{
+                    // TODO error
+                }
             });
         };
-
-
-
-
 
 
     });

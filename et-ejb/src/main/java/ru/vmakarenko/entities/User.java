@@ -24,7 +24,6 @@ public class User extends DefaultEntity {
     @Transient
     private String password2;
     @Column(name="EMAIL")
-    @NotNull
     private String eMail;
 
     public String getPassword() {
